@@ -2,22 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Minimal</title>
-    <link>http://example.com/post/</link>
+    <link>https://joaolgm.github.io/hugo-vis/post/</link>
     <description>Recent content in Posts on Minimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Nov 2017 09:19:47 -0300</lastBuildDate>
     
-	<atom:link href="http://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://joaolgm.github.io/hugo-vis/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Primeiro Post</title>
-      <link>http://example.com/post/primeiro-post/</link>
+      <title>Primeira Visualização</title>
+      <link>https://joaolgm.github.io/hugo-vis/post/primeiro-post/</link>
       <pubDate>Tue, 14 Nov 2017 09:19:47 -0300</pubDate>
       
-      <guid>http://example.com/post/primeiro-post/</guid>
-      <description>const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;: &#34;https://api.insa.gov.br/reservatorios/12172/monitoramento&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;volumes&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } }, &#34;width&#34;: 500, &#34;height&#34;: 120, &#34;mark&#34;: { &#34;type&#34;: &#34;area&#34;, &#34;interpolate&#34;: &#34;monotone&#34; }, &#34;selection&#34;: { &#34;brush&#34;: {&#34;type&#34;: &#34;interval&#34;, &#34;encodings&#34;: [&#34;x&#34;]} }, &#34;encoding&#34;: { &#34;x&#34;: { &#34;timeUnit&#34; : &#34;monthyear&#34;, &#34;field&#34;: &#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;axis&#34;: {&#34;format&#34;: &#34;%Y&#34;, &#34;title&#34; : &#34;Volume percentual ao longo dos anos&#34;} }, &#34;</description>
+      <guid>https://joaolgm.github.io/hugo-vis/post/primeiro-post/</guid>
+      <description>{ &amp;ldquo;$schema&amp;rdquo;: &amp;ldquo;https://vega.github.io/schema/vega-lite/v2.json&amp;quot;, &amp;ldquo;data&amp;rdquo;: { &amp;ldquo;url&amp;rdquo;:&amp;ldquo;https://api.insa.gov.br/reservatorios/12172/monitoramento&amp;quot;, &amp;ldquo;format&amp;rdquo;: { &amp;ldquo;type&amp;rdquo;: &amp;ldquo;json&amp;rdquo;, &amp;ldquo;property&amp;rdquo;: &amp;ldquo;volumes&amp;rdquo;, &amp;ldquo;parse&amp;rdquo;: {&amp;ldquo;DataInformacao&amp;rdquo;: &amp;ldquo;utc:%d/%m/%Y&amp;rdquo;} } }, &amp;ldquo;width&amp;rdquo;: 680, &amp;ldquo;height&amp;rdquo;: 290, &amp;ldquo;mark&amp;rdquo;: &amp;ldquo;circle&amp;rdquo;, &amp;ldquo;encoding&amp;rdquo;: { &amp;ldquo;x&amp;rdquo;: { &amp;ldquo;field&amp;rdquo;: &amp;ldquo;DataInformacao&amp;rdquo;, &amp;ldquo;timeUnit&amp;rdquo;: &amp;ldquo;year&amp;rdquo;, &amp;ldquo;type&amp;rdquo;: &amp;ldquo;ordinal&amp;rdquo; }, &amp;ldquo;y&amp;rdquo;: { &amp;ldquo;field&amp;rdquo;: &amp;ldquo;DataInformacao&amp;rdquo;, &amp;ldquo;timeUnit&amp;rdquo;: &amp;ldquo;month&amp;rdquo;, &amp;ldquo;type&amp;rdquo;: &amp;ldquo;ordinal&amp;rdquo; }, &amp;ldquo;color&amp;rdquo;: {&amp;ldquo;value&amp;rdquo;: &amp;ldquo;#c49ed3&amp;rdquo;},
+ &amp;quot;size&amp;quot;: { &amp;quot;field&amp;quot;: &amp;quot;Volume&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;quantitative&amp;quot;, &amp;quot;aggregate&amp;quot;: &amp;quot;mean&amp;quot; } }  }</description>
     </item>
     
   </channel>

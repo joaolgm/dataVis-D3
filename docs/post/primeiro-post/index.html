@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Primeiro Post</title>
+        <title>Primeira Visualização</title>
         <style>
 
     html body {
@@ -72,7 +72,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Primeiro Post</a>
+                    <a class="navbar-brand visible-xs" href="#">Primeira Visualização</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -87,11 +87,11 @@
                     
                         <ul class="nav navbar-nav">
                             
-                                <li><a href="/">Home</a></li>
+                                <li><a href="/hugo-vis/">Home</a></li>
                             
-                                <li><a href="/post/">Posts</a></li>
+                                <li><a href="/hugo-vis/post/">Posts</a></li>
                             
-                                <li><a href="/project/">Projects</a></li>
+                                <li><a href="/hugo-vis/project/">Projects</a></li>
                             
                         </ul>
                     
@@ -130,58 +130,48 @@
     
     
 
-    <h4><a href="/post/primeiro-post/">Primeiro Post</a></h4>
+    <h4><a href="/hugo-vis/post/primeiro-post/">Primeira Visualização</a></h4>
     <h5>November 14, 2017</h5>
     
 
 </div>
 
 
-    <br> <div class="text-justify"><div id="vis" width=300></div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.7/vega.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.1/vega-lite.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-rc7/vega-embed.js"></script>
-<script>
-    const spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "data": {
-        "url": "https://api.insa.gov.br/reservatorios/12172/monitoramento",
-        "format": {
-        "type": "json",
-        "property": "volumes",
-        "parse": {
-            "DataInformacao": "utc:'%d/%m/%Y'"
-                }
-            }
+    <br> <div class="text-justify"><p>{
+     &ldquo;$schema&rdquo;: &ldquo;<a href="https://vega.github.io/schema/vega-lite/v2.json&quot;">https://vega.github.io/schema/vega-lite/v2.json&quot;</a>,
+    &ldquo;data&rdquo;: {
+        &ldquo;url&rdquo;:&ldquo;<a href="https://api.insa.gov.br/reservatorios/12172/monitoramento&quot;">https://api.insa.gov.br/reservatorios/12172/monitoramento&quot;</a>,
+        &ldquo;format&rdquo;: {
+            &ldquo;type&rdquo;: &ldquo;json&rdquo;,
+            &ldquo;property&rdquo;: &ldquo;volumes&rdquo;,
+            &ldquo;parse&rdquo;: {&ldquo;DataInformacao&rdquo;: &ldquo;utc:%d/%m/%Y&rdquo;}
+        }
+    },
+    &ldquo;width&rdquo;: 680,
+    &ldquo;height&rdquo;: 290,
+    &ldquo;mark&rdquo;: &ldquo;circle&rdquo;,
+    &ldquo;encoding&rdquo;: {
+      &ldquo;x&rdquo;: {
+        &ldquo;field&rdquo;: &ldquo;DataInformacao&rdquo;,
+        &ldquo;timeUnit&rdquo;: &ldquo;year&rdquo;,
+        &ldquo;type&rdquo;: &ldquo;ordinal&rdquo;
+      },
+      &ldquo;y&rdquo;: {
+        &ldquo;field&rdquo;: &ldquo;DataInformacao&rdquo;,
+        &ldquo;timeUnit&rdquo;: &ldquo;month&rdquo;,
+        &ldquo;type&rdquo;: &ldquo;ordinal&rdquo;
         },
+        &ldquo;color&rdquo;: {&ldquo;value&rdquo;: &ldquo;#c49ed3&rdquo;},</p>
 
-    "width": 500,
-    "height": 120,
+<pre><code>  &quot;size&quot;: {
+    &quot;field&quot;: &quot;Volume&quot;,
+    &quot;type&quot;: &quot;quantitative&quot;,
+    &quot;aggregate&quot;: &quot;mean&quot;
+  }
+}
+</code></pre>
 
-    "mark": {
-        "type": "area",
-        "interpolate": "monotone"
-    },
-    "selection": {
-      "brush": {"type": "interval", "encodings": ["x"]}
-    },
-    "encoding": {
-      "x": {
-        "timeUnit" : "monthyear",
-        "field": "DataInformacao",
-        "type": "temporal",
-        "axis": {"format": "%Y", "title" : "Volume percentual ao longo dos anos"}
-       },
-      "y": {
-        "field": "VolumePercentual",
-        "type": "quantitative",
-        "axis": {"tickCount": 30, "grid": false, "title": "Volume percentual"}
-         }
-       }
-     };
-    vegaEmbed('#vis', spec).catch(console.warn);
-</script>
+<p>}</p>
 </div>
 
     

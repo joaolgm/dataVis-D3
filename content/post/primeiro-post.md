@@ -1,51 +1,39 @@
 ---
-title: "Primeiro Post"
+title: "Primeira Visualização"
 date: 2017-11-14T09:19:47-03:00
 draft: false
 ---
 
-<div id="vis" width=300></div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.7/vega.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.1/vega-lite.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-rc7/vega-embed.js"></script>
-<script>
-    const spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+{
+     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
     "data": {
-        "url": "https://api.insa.gov.br/reservatorios/12172/monitoramento",
+        "url":"https://api.insa.gov.br/reservatorios/12172/monitoramento",
         "format": {
-        "type": "json",
-        "property": "volumes",
-        "parse": {
-            "DataInformacao": "utc:'%d/%m/%Y'"
-                }
-            }
-        },
-
-    "width": 500,
-    "height": 120,
-
-    "mark": {
-        "type": "area",
-        "interpolate": "monotone"
+            "type": "json",
+            "property": "volumes",
+            "parse": {"DataInformacao": "utc:%d/%m/%Y"}
+        }
     },
-    "selection": {
-      "brush": {"type": "interval", "encodings": ["x"]}
-    },
+    "width": 680,
+    "height": 290,
+    "mark": "circle",
     "encoding": {
       "x": {
-        "timeUnit" : "monthyear",
         "field": "DataInformacao",
-        "type": "temporal",
-        "axis": {"format": "%Y", "title" : "Volume percentual ao longo dos anos"}
-       },
+        "timeUnit": "year",
+        "type": "ordinal"
+      },
       "y": {
-        "field": "VolumePercentual",
+        "field": "DataInformacao",
+        "timeUnit": "month",
+        "type": "ordinal"
+        },
+        "color": {"value": "#c49ed3"},
+
+      "size": {
+        "field": "Volume",
         "type": "quantitative",
-        "axis": {"tickCount": 30, "grid": false, "title": "Volume percentual"}
-         }
-       }
-     };
-  	vegaEmbed('#vis', spec).catch(console.warn);
-</script>
+        "aggregate": "mean"
+      }
+    }
+}

@@ -1,4 +1,4 @@
-baseURL = "https://github.com/joaolgm/hugo-vis"
+baseURL = "https://joaolgm.github.io/hugo-vis/"
 languageCode = "en-us"
 title = "Minimal"
 theme = "minimal"
