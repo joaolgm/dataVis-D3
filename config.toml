@@ -9,7 +9,7 @@ googleAnalytics = ""
 [params]
     author = "Calin Tataru"
     description = "por João Menezes"
-    githubUsername = "#"
+    githubUsername = "joaolgm"
     accent = "red"
     showBorder = true
     backgroundColor = "white"
@@ -43,7 +43,7 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/joaolgm/"
     name = "github"
     weight = 2
 
