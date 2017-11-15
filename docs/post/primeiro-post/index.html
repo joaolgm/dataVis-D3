@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-
+         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Primeira Visualização</title>
@@ -20,7 +20,7 @@
 </style>
 
 
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://joaolgm.github.io/hugo-vis/css/main.css">
 
 
 
@@ -29,19 +29,19 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
 
- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css">
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+ 
 
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
-     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
 
     <script>hljs.initHighlightingOnLoad();</script>
 
@@ -59,13 +59,13 @@
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.30.2" />
-
-
-
+        
+        
+        
     </head>
 
     <body>
-
+         
         <nav class="navbar navbar-default navbar-fixed-top">
 
             <div class="container">
@@ -84,33 +84,33 @@
 
                 <div class="collapse navbar-collapse">
 
-
+                    
                         <ul class="nav navbar-nav">
-
+                            
                                 <li><a href="/hugo-vis/">Home</a></li>
-
+                            
                                 <li><a href="/hugo-vis/post/">Posts</a></li>
-
+                            
                                 <li><a href="/hugo-vis/project/">Projects</a></li>
-
+                            
                         </ul>
+                    
 
-
-
+                    
                         <ul class="nav navbar-nav navbar-right">
-
+                            
                                 <li class="navbar-icon"><a href="mailto:me@example.com"><i class="fa fa-envelope-o"></i></a></li>
-
+                            
                                 <li class="navbar-icon"><a href="https://github.com/username/"><i class="fa fa-github"></i></a></li>
-
+                            
                                 <li class="navbar-icon"><a href="https://twitter.com/username/"><i class="fa fa-twitter"></i></a></li>
-
+                            
                                 <li class="navbar-icon"><a href="https://www.linkedin.com/in/username/"><i class="fa fa-linkedin"></i></a></li>
-
+                            
                                 <li class="navbar-icon"><a href="https://www.stackoverflow.com/username/"><i class="fa fa-stack-overflow"></i></a></li>
-
+                            
                         </ul>
-
+                    
 
                 </div>
 
@@ -123,72 +123,78 @@
 
     <div class="item">
 
+    
+    
+    
 
-
-
-
-
-
+    
+    
 
     <h4><a href="/hugo-vis/post/primeiro-post/">Primeira Visualização</a></h4>
     <h5>November 14, 2017</h5>
-
+    
 
 </div>
 
 
-    <br> <div class="text-justify"><p>{
-     &ldquo;$schema&rdquo;: &ldquo;<a href="https://vega.github.io/schema/vega-lite/v2.json&quot;">https://vega.github.io/schema/vega-lite/v2.json&quot;</a>,
-    &ldquo;data&rdquo;: {
-        &ldquo;url&rdquo;:&ldquo;<a href="https://api.insa.gov.br/reservatorios/12172/monitoramento&quot;">https://api.insa.gov.br/reservatorios/12172/monitoramento&quot;</a>,
-        &ldquo;format&rdquo;: {
-            &ldquo;type&rdquo;: &ldquo;json&rdquo;,
-            &ldquo;property&rdquo;: &ldquo;volumes&rdquo;,
-            &ldquo;parse&rdquo;: {&ldquo;DataInformacao&rdquo;: &ldquo;utc:%d/%m/%Y&rdquo;}
+    <br> <div class="text-justify"><div id="vis" width=300></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.7/vega.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.1/vega-lite.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-rc7/vega-embed.js"></script>
+<script>
+    const spec = {
+     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+    "data": {
+        "url":"https://api.insa.gov.br/reservatorios/12172/monitoramento",
+        "format": {
+            "type": "json",
+            "property": "volumes",
+            "parse": {"DataInformacao": "utc:%d/%m/%Y"}
         }
     },
-    &ldquo;width&rdquo;: 680,
-    &ldquo;height&rdquo;: 290,
-    &ldquo;mark&rdquo;: &ldquo;circle&rdquo;,
-    &ldquo;encoding&rdquo;: {
-      &ldquo;x&rdquo;: {
-        &ldquo;field&rdquo;: &ldquo;DataInformacao&rdquo;,
-        &ldquo;timeUnit&rdquo;: &ldquo;year&rdquo;,
-        &ldquo;type&rdquo;: &ldquo;ordinal&rdquo;
+    "width": 680,
+    "height": 290,
+    "mark": "circle",
+    "encoding": {
+      "x": {
+        "field": "DataInformacao",
+        "timeUnit": "year",
+        "type": "ordinal"
       },
-      &ldquo;y&rdquo;: {
-        &ldquo;field&rdquo;: &ldquo;DataInformacao&rdquo;,
-        &ldquo;timeUnit&rdquo;: &ldquo;month&rdquo;,
-        &ldquo;type&rdquo;: &ldquo;ordinal&rdquo;
+      "y": {
+        "field": "DataInformacao",
+        "timeUnit": "month",
+        "type": "ordinal"
         },
-        &ldquo;color&rdquo;: {&ldquo;value&rdquo;: &ldquo;#c49ed3&rdquo;},</p>
+        "color": {"value": "#c49ed3"},
 
-<pre><code>  &quot;size&quot;: {
-    &quot;field&quot;: &quot;Volume&quot;,
-    &quot;type&quot;: &quot;quantitative&quot;,
-    &quot;aggregate&quot;: &quot;mean&quot;
-  }
-}
-</code></pre>
-
-<p>}</p>
+      "size": {
+        "field": "Volume",
+        "type": "quantitative",
+        "aggregate": "mean"
+      }
+    }
+};
+vegaEmbed('#vis', spec).catch(console.warn);
+</script>
 </div>
 
+    
+    
 
+    
 
-
-
-
-
+    
 
         <h4 class="page-header">Comments</h4>
 
         <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-
-
-
+    
+    
+    
     };
     (function() {
         if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
@@ -204,7 +210,7 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-
+    
 
 </main>
 
@@ -213,7 +219,8 @@
             <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
 
         </footer>
-
+       
     </body>
 
 </html>
+
