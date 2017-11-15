@@ -49,15 +49,14 @@ draft: false
 vegaEmbed('#meanVolume', spec).catch(console.warn);
 </script>
 
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-
+<div>
 <div id="raining" width=300></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.7/vega.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.1/vega-lite.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-rc7/vega-embed.js"></script>
 <script>
-    const spec = {
+    const spec2 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
    "data": {
         "url":"https://api.insa.gov.br/reservatorios/12172/monitoramento",
@@ -74,10 +73,9 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
     "color": {"value": "#c49ed3"}
   }
 };
-vegaEmbed('#raining', spec).catch(console.warn);
+vegaEmbed('#raining', spec2).catch(console.warn);
 </script>
 
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 <div id="pattern" width=300></div>
 
@@ -85,7 +83,7 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.1/vega-lite.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-rc7/vega-embed.js"></script>
 <script>
-    const spec = {
+    const spec3 = {
      "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
     "data": {
         "url":"https://api.insa.gov.br/reservatorios/12172/monitoramento",
@@ -131,5 +129,5 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
     }
   }]
 };
-vegaEmbed('#pattern', spec).catch(console.warn);
+vegaEmbed('#pattern', spec3).catch(console.warn);
 </script>
