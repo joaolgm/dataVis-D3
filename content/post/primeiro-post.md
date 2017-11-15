@@ -3,7 +3,7 @@ title: "Primeira Visualização"
 date: 2017-11-14T09:19:47-03:00
 draft: false
 ---
-# Titulo
+# Açude de Boqueirão
 
 * bla
 
@@ -85,4 +85,51 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.1/vega-lite.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-rc7/vega-embed.js"></script>
 <script>
-    const spec =
+    const spec = {
+     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+    "data": {
+        "url":"https://api.insa.gov.br/reservatorios/12172/monitoramento",
+        "format": {
+            "type": "json",
+            "property": "volumes",
+            "parse": {"DataInformacao": "utc:%d/%m/%Y"}
+        }
+    },
+     "vconcat": [{
+    "width": 680,
+    "height": 190,
+    "mark": "area",
+    "encoding": {
+      "x": {
+        "field": "DataInformacao",
+        "type": "temporal",
+        "scale": {"domain": {"selection": "brush"}},
+        "axis": {"title": ""}
+      },
+      "y": {"field": "Volume","type": "quantitative"},
+      "color": {"value": "#c49ed3"}
+    }
+  }, {
+    "width": 490,
+    "height": 90,
+    "mark": "area",
+    "selection": {
+      "brush": {"type": "interval", "encodings": ["x"]}
+    },
+    "encoding": {
+      "x": {
+        "field": "DataInformacao",
+        "type": "temporal",
+        "axis": {"format": "%Y"}
+      },
+      "y": {
+        "field": "Volume",
+        "type": "quantitative",
+        "axis": {"tickCount": 5, "grid": false}
+      },
+      "color": {"value": "#c49ed3"}
+    }
+  }]
+};
+vegaEmbed('#pattern', spec).catch(console.warn);
+</script>
