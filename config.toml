@@ -1,14 +1,14 @@
 baseURL = "https://joaolgm.github.io/hugo-vis/"
 languageCode = "en-us"
-title = "Minimal"
+title = "Visualizações"
 theme = "minimal"
 publishDir = "docs"
-disqusShortname = "username" # delete this to disable disqus comments
+disqusShortname = "joao" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
+    description = "por João Menezes"
     githubUsername = "#"
     accent = "red"
     showBorder = true

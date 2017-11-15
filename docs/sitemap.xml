@@ -13,12 +13,6 @@
   </url>
   
   <url>
-    <loc>https://joaolgm.github.io/hugo-vis/</loc>
-    <lastmod>2017-11-14T09:19:47-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://joaolgm.github.io/hugo-vis/post/</loc>
     <lastmod>2017-11-14T09:19:47-03:00</lastmod>
     <priority>0</priority>
@@ -26,6 +20,12 @@
   
   <url>
     <loc>https://joaolgm.github.io/hugo-vis/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://joaolgm.github.io/hugo-vis/</loc>
+    <lastmod>2017-11-14T09:19:47-03:00</lastmod>
     <priority>0</priority>
   </url>
   
