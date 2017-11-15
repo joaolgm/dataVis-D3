@@ -1,11 +1,11 @@
 ---
-title: "Primeira Visualização"
+title: "Visualizações sobre o Açude de Boqueirão"
 date: 2017-11-14T09:19:47-03:00
 draft: false
 ---
 # Açude de Boqueirão
 
-* bla
+#### Com os dados coletados sobre o açude de boqueirão desde o ano de 1990 até a atualidade é possível perceber que o nível de água variou bastante, também pode-se notar que existe alguns padrões entre um período de seca e outro, além de mudanças repentinas no aumento do volume das águas.
 
 <div id="meanVolume" width=300></div>
 
@@ -49,6 +49,8 @@ draft: false
 vegaEmbed('#meanVolume', spec).catch(console.warn);
 </script>
 
+* O tamanho dos círculos mostra a média de volume de água em milhões de metros cúbicos e as coordenadas horizontal e vertical identificam os anos e meses que foram coletados os dados, respectivamente. É possível fazer uma comparação entre as secas de 1999 e 2016.
+
 <div>
 <div id="raining" width=300></div>
 
@@ -66,16 +68,19 @@ vegaEmbed('#meanVolume', spec).catch(console.warn);
             "parse": {"DataInformacao": "utc:%d/%m/%Y"}
         }
     },
-  "mark": "point",
-  "encoding": {
-    "x": {"field": "DataInformacao","timeUnit": "year", "type": "ordinal"},
-    "y": {"field": "VolumePercentual","type": "quantitative", "aggregate": "mean"},
-    "color": {"value": "#c49ed3"}
+    "width": 680,
+    "height": 290,
+    "mark": "point",
+    "encoding": {
+      "x": {"field": "DataInformacao","timeUnit": "year", "type": "ordinal"},
+      "y": {"field": "VolumePercentual","type": "quantitative", "aggregate": "mean"},
+      "color": {"value": "#c49ed3"}
   }
 };
 vegaEmbed('#raining', spec2).catch(console.warn);
 </script>
 
+* A coordenada horizontal mostra os anos que os dados foram coletados e a vertical a média do volume percentual. É possível perceber facilmente que em alguns anos o volume de chuvas foi bastante elevado.
 
 <div id="pattern" width=300></div>
 
@@ -95,7 +100,7 @@ vegaEmbed('#raining', spec2).catch(console.warn);
     },
      "vconcat": [{
     "width": 680,
-    "height": 190,
+    "height": 290,
     "mark": "area",
     "encoding": {
       "x": {
@@ -131,3 +136,5 @@ vegaEmbed('#raining', spec2).catch(console.warn);
 };
 vegaEmbed('#pattern', spec3).catch(console.warn);
 </script>
+
+* A coordenada vertical mostra o volume em milhões de metros cúbicos e a horizontal mostra os dias que foram coletados os dados, dando assim uma visão geral da situação do açude.
