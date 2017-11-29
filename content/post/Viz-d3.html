@@ -16,7 +16,7 @@ draft: false
 <body>
   <div class="container">
     <div class="row">
-      <h2>naaaaaaaaaaan</h2>
+      <h2>Boqueirão</h2>
     </div>
     <div class="row mychart" id="chart">
     </div>
@@ -37,12 +37,16 @@ draft: false
     }
   </style>
 
-<script type="text/javascript">
+  <script type="text/javascript">
     "use strict"
 
 
     function desenhaBarras(dados) {
-      var alturaSVG = 400, larguraSVG = 600;
+
+      var chuva = function(d) {return d.mes > 5},
+          cor = d3.scaleOrdinal(d3.schemeCategory20);
+
+      var alturaSVG = 500, larguraSVG = 900;
       var	margin = {top: 10, right: 20, bottom:30, left: 45},
           larguraVis = larguraSVG - margin.left - margin.right,
           alturaVis = alturaSVG - margin.top - margin.bottom;
@@ -54,29 +58,51 @@ draft: false
                       .append('g')
                         .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
-      var x = d3.scaleBand()
-              .domain(dados.map((dado, indice) => dado.mes))
-              .rangeRound([0,600])
-              .padding([0.2]);
+      var x = d3.scaleLinear()
+              .domain([86, 105])
+              .rangeRound([0,larguraVis]);
+
+      var y = d3.scaleLinear()
+              .domain([18, 30])
+              .rangeRound([alturaVis,0]);
 
       grafico.selectAll('g')
             .data(dados)
               .enter()
             .append('circle')
-            .attr('cx', i => x(i.mes))
-            .attr('cy', 200)
-            .attr('r', 10);
+            .attr('r', 10)
+            .attr('cx', d => x(d.noventa_percentil))
+            .attr('width', (d) => alturaVis - x(d.noventa_percentil))
+            .attr('cy', d => y(d.dez_percentil))
+            .attr('height', (d) => alturaVis - y(d.dez_percentil))
+            .style("fill", function(d) {return cor(chuva(d))});
 
       grafico.append("g")
+             .attr("class", "x axis")
              .attr("transform", "translate(0," + alturaVis + ")")
              .call(d3.axisBottom(x));
 
+      grafico.append("text")
+             .attr("transform", "translate(" + larguraVis/2 + "," + (alturaVis + margin.bottom) + ") ")
+             .text("Noventa Percentil");
 
+      grafico.append('g')
+             .attr('transform', 'translate(0,0)')
+             .call(d3.axisLeft(y))
+
+      grafico.append("text")
+             .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
+             .text("Dez Percentil");
     }
 
-    d3.tsv('https://raw.githubusercontent.com/joaolgm/intro-d3/master/dados/boqueirao-por-mes.csv', function(dados) {
+    d3.csv('https://raw.githubusercontent.com/joaolgm/intro-d3/master/dados/boqueirao-por-mes.csv', function(dados) {
+      console.log("provavelmente acontece depois")
       desenhaBarras(dados);
     });
 
+    console.log("provavelmente acontece primeiro")
 
   </script>
+</body>
+
+</html>
