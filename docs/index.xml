@@ -6,10 +6,19 @@
     <description>Recent content on Visualizações</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Nov 2017 09:19:47 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 29 Nov 2017 09:29:27 -0300</lastBuildDate>
     
 	<atom:link href="https://joaolgm.github.io/hugo-vis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Viz D3</title>
+      <link>https://joaolgm.github.io/hugo-vis/post/viz-d3/</link>
+      <pubDate>Wed, 29 Nov 2017 09:29:27 -0300</pubDate>
+      
+      <guid>https://joaolgm.github.io/hugo-vis/post/viz-d3/</guid>
+      <description>Barras simples    Barras com dados vindos de uma url     .mychart rect { fill: green; } .mychart rect:hover { fill: goldenrod; } .mychart text { font: 12px sans-serif; text-anchor: left; }  &#34;use strict&#34; function desenhaBarras(dados) { var alturaSVG = 900, larguraSVG = 1300; var	margin = {top: 10, right: 20, bottom:30, left: 45}, larguraVis = larguraSVG - margin.left - margin.right, alturaVis = alturaSVG - margin.</description>
+    </item>
     
     <item>
       <title>Visualizações sobre o Açude de Boqueirão</title>
