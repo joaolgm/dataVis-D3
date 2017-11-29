@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Viz D3</title>
+      <title>Visualização com D3</title>
       <link>https://joaolgm.github.io/hugo-vis/post/viz-d3/</link>
       <pubDate>Wed, 29 Nov 2017 09:29:27 -0300</pubDate>
       
       <guid>https://joaolgm.github.io/hugo-vis/post/viz-d3/</guid>
-      <description>Barras simplesBoqueirão.mychart rect {fill: green;}.mychart rect:hover {fill: goldenrod;}.mychart text {font: 12px sans-serif;text-anchor: left;}&#34;use strict&#34;function desenhaBarras(dados) {var chuva = function(d) {return d.mes  5},cor = d3.scaleOrdinal(d3.schemeCategory20);var alturaSVG = 500, larguraSVG = 900;var	margin = {top: 10, right: 20, bottom:30, left: 45},larguraVis = larguraSVG - margin.</description>
+      <description>BoqueirãoPeríodos chuvosos no açude Epitácio Pessoa.mychart rect {fill: green;}.mychart rect:hover {fill: goldenrod;}.mychart text {font: 12px sans-serif;text-anchor: left;}&#34;use strict&#34;function desenhaBarras(dados) {var chuva = function(d) {return d.mes  5},cor = d3.scaleOrdinal(d3.schemeCategory20);var alturaSVG = 500, larguraSVG = 900;var	margin = {top: 10, right: 20, bottom:30, left: 45},larguraVis = larguraSVG - margin.</description>
     </item>
     
     <item>
