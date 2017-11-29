@@ -42,7 +42,7 @@ draft: false
 
 
     function desenhaBarras(dados) {
-      var alturaSVG = 900, larguraSVG = 1300;
+      var alturaSVG = 400, larguraSVG = 600;
       var	margin = {top: 10, right: 20, bottom:30, left: 45},
           larguraVis = larguraSVG - margin.left - margin.right,
           alturaVis = alturaSVG - margin.top - margin.bottom;
@@ -56,34 +56,22 @@ draft: false
 
       var x = d3.scaleBand()
               .domain(dados.map((dado, indice) => dado.mes))
-              .rangeRound([0,800])
+              .rangeRound([0,600])
               .padding([0.2]);
-
-      var y = d3.scaleLinear()
-              .domain([0,110])
-              .rangeRound([860,0]);
 
       grafico.selectAll('g')
             .data(dados)
               .enter()
-            .append('rect')
-            .attr('x', d => x(d.mes))
-            .attr('width', x.bandwidth())
-            .attr('y', d => y(d.valor))
-            .attr('height', (d) => alturaVis - y(d.valor));
+            .append('circle')
+            .attr('cx', i => x(i.mes))
+            .attr('cy', 200)
+            .attr('r', 10);
 
       grafico.append("g")
-             .attr("class", "x axis")
              .attr("transform", "translate(0," + alturaVis + ")")
              .call(d3.axisBottom(x));
 
-      grafico.append('g')
-             .attr('transform', 'translate(0,0)')
-             .call(d3.axisLeft(y))
 
-      grafico.append("text")
-             .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
-             .text("Frequencia");
     }
 
     d3.tsv('https://raw.githubusercontent.com/joaolgm/intro-d3/master/dados/boqueirao-por-mes.csv', function(dados) {
