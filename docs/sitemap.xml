@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://joaolgm.github.io/hugo-vis/post/seguran%C3%A7a/</loc>
+    <lastmod>2017-12-08T10:55:24-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://joaolgm.github.io/hugo-vis/post/viz-d3/</loc>
     <lastmod>2017-11-29T09:29:27-03:00</lastmod>
   </url>
@@ -19,7 +24,7 @@
   
   <url>
     <loc>https://joaolgm.github.io/hugo-vis/post/</loc>
-    <lastmod>2017-11-29T09:29:27-03:00</lastmod>
+    <lastmod>2017-12-08T10:55:24-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,7 +35,7 @@
   
   <url>
     <loc>https://joaolgm.github.io/hugo-vis/</loc>
-    <lastmod>2017-11-29T09:29:27-03:00</lastmod>
+    <lastmod>2017-12-08T10:55:24-03:00</lastmod>
     <priority>0</priority>
   </url>
   

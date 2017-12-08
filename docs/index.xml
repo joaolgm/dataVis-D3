@@ -6,10 +6,19 @@
     <description>Recent content on Visualizações</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Nov 2017 09:29:27 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2017 10:55:24 -0300</lastBuildDate>
     
 	<atom:link href="https://joaolgm.github.io/hugo-vis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Segurança</title>
+      <link>https://joaolgm.github.io/hugo-vis/post/seguran%C3%A7a/</link>
+      <pubDate>Fri, 08 Dec 2017 10:55:24 -0300</pubDate>
+      
+      <guid>https://joaolgm.github.io/hugo-vis/post/seguran%C3%A7a/</guid>
+      <description>rect.bordered { stroke: #E6E6E6; stroke-width:2px; } text.mono { font-size: 9pt; font-family: Consolas, courier; fill: #aaa; } text.axis-workweek { fill: #000; } text.axis-worktime { fill: #000; }       &#34;use strict&#34; var margin = { top: 50, right: 0, bottom: 100, left: 90 }, width = 960 - margin.left - margin.right, height = 430 - margin.top - margin.bottom, gridSize = Math.floor(width / 18), legendElementWidth = gridSize*2, buckets = 9, colors = [&#34;</description>
+    </item>
     
     <item>
       <title>Visualização com D3</title>
