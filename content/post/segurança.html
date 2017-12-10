@@ -39,7 +39,7 @@ draft: false
 
     function desenhaBarras(dados) {
 
-      var chuva = function(d) {return d.value > 120},
+      var chuva = function(d) {return d.valor > 120},
           cor = d3.scaleOrdinal(d3.schemeCategory20);
 
       var alturaSVG = 500, larguraSVG = 900;
@@ -55,11 +55,11 @@ draft: false
                         .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
       var x = d3.scaleLinear()
-              .domain([0, 200])
+              .domain([0, 100])
               .rangeRound([0,larguraVis]);
 
       var y = d3.scaleLinear()
-              .domain([5, 21])
+              .domain([0, 100])
               .rangeRound([alturaVis,0]);
 
       grafico.selectAll('g')
@@ -67,10 +67,10 @@ draft: false
               .enter()
             .append('circle')
             .attr('r', 10)
-            .attr('cx', d => x(d.value))
-            .attr('width', (d) => alturaVis - x(d.value))
-            .attr('cy', d => y(d.horario))
-            .attr('height', (d) => alturaVis - y(d.horario))
+            .attr('cx', function(d) {return d.valor})
+            .attr('width', function(d) {return larguraVis - d.valor})
+            .attr('cy', function(d) {return d.horario})
+            .attr('height', function(d) {return alturaVis - d.horario})
             .style("fill", function(d) {return cor(chuva(d))});
 
       grafico.append("g")
@@ -80,7 +80,7 @@ draft: false
 
       grafico.append("text")
              .attr("transform", "translate(" + larguraVis/2 + "," + (alturaVis + margin.bottom) + ") ")
-             .text("Noventa Percentil");
+             .text("Média de pedestres");
 
       grafico.append('g')
              .attr('transform', 'translate(0,0)')
@@ -88,7 +88,7 @@ draft: false
 
       grafico.append("text")
              .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
-             .text("Dez Percentil");
+             .text("Horas");
     }
 
     d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/pedestres_jackson_mean.csv', function(dados) {
