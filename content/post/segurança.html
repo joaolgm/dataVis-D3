@@ -39,7 +39,7 @@ draft: false
 
     function desenhaBarras(dados) {
 
-      var chuva = function(d) {return d.valor > 120},
+      var chuva = function(d) {return d.media > 120},
           cor = d3.scaleOrdinal(d3.schemeCategory20);
 
       var alturaSVG = 500, larguraSVG = 900;
@@ -59,7 +59,7 @@ draft: false
               .rangeRound([0,larguraVis]);
 
       var y = d3.scaleLinear()
-              .domain([0, 100])
+              .domain([5, 21])
               .rangeRound([alturaVis,0]);
 
       grafico.selectAll('g')
@@ -67,11 +67,10 @@ draft: false
               .enter()
             .append('circle')
             .attr('r', 10)
-            .attr('cx', function(d) {return d.valor})
-            .attr('width', function(d) {return larguraVis - d.valor})
-            .attr('cy', function(d) {return d.horario})
-            .attr('height', function(d) {return alturaVis - d.horario})
+            .attr('cx', function(d) {console.log(d.n); return d.n})
+            .attr('cy', function(d) {return parseInt(d.hora)})
             .style("fill", function(d) {return cor(chuva(d))});
+
 
       grafico.append("g")
              .attr("class", "x axis")
@@ -91,10 +90,102 @@ draft: false
              .text("Horas");
     }
 
-    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/pedestres_jackson_mean.csv', function(dados) {
+    d3.csv('https://raw.githubusercontent.com/michellymenezes/portifolio-visualizacao/master/data/tipos-fluxo-campina-mean.csv', function(dados) {
       desenhaBarras(dados);
     });
 
     </script>
   </body>
+</html>
+
+
+
+
+
+
+
+<head>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+    </div>
+    <div class="row mychart" id="chart">
+    </div>
+  </div>
+
+  <style>
+    .mychart rect {
+      fill: green;
+    }
+
+    .mychart rect:hover {
+      fill: goldenrod;
+    }
+
+    .mychart text {
+      font: 12px sans-serif;
+      text-anchor: left;
+    }
+  </style>
+
+  <script type="text/javascript">
+    "use strict"
+
+
+    function desenhaBarras(dados) {
+      var alturaSVG = 600, larguraSVG = 900;
+      var	margin = {top: 10, right: 20, bottom:30, left: 45},
+          larguraVis = larguraSVG - margin.left - margin.right,
+          alturaVis = alturaSVG - margin.top - margin.bottom;
+
+      var grafico = d3.select('#chart')
+                      .append('svg')
+                        .attr('width', larguraVis + margin.left + margin.right)
+                        .attr('height', alturaVis + margin.top + margin.bottom)
+                      .append('g')
+                        .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
+
+      var x = d3.scaleBand()
+                .domain([21, 5])
+                .rangeRound([alturaVis,0])
+                .padding([0.2]);
+
+      var y = d3.scaleLinear()
+                .domain([150, 0])
+                .rangeRound([0, alturaVis]);
+
+      grafico.selectAll('g')
+            .data(dados)
+              .enter()
+            .append('rect')
+            .attr('x', d => x(d.media))
+            .attr('width', 20)
+            .attr('y', d => y(d.horario))
+            .attr('height', (d) => parseInt(alturaVis) - y(d.media));
+
+      grafico.append("g")
+             .attr("class", "x axis")
+             .attr("transform", "translate(0," + alturaVis + ")")
+             .call(d3.axisBottom(x));
+
+      grafico.append('g')
+             .attr('transform', 'translate(0,0)')
+             .call(d3.axisLeft(y))
+
+      grafico.append("text")
+             .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
+             .text("Frequencia");
+    }
+
+    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/pedestres_jackson_mean.csv', function(dados) {
+      desenhaBarras(dados);
+    });
+
+  </script>
+</body>
+
 </html>
