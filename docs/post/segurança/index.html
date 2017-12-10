@@ -139,134 +139,96 @@
 
     <br> <div class="text-justify"><!DOCTYPE html>
 <meta charset="utf-8">
-<html>
-  <head>
-    <style>
-      rect.bordered {
-        stroke: #E6E6E6;
-        stroke-width:2px;
-      }
+<head>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
 
-      text.mono {
-        font-size: 9pt;
-        font-family: Consolas, courier;
-        fill: #aaa;
-      }
-
-      text.axis-workweek {
-        fill: #000;
-      }
-
-      text.axis-worktime {
-        fill: #000;
-      }
-    </style>
-    <script src="http://d3js.org/d3.v3.js"></script>
-  </head>
-  <body>
-    <div id="chart"></div>
-    <div id="dataset-picker">
+<body>
+  <div class="container">
+    <div class="row">
     </div>
-    <script type="text/javascript">
+    <div class="row mychart" id="chart">
+    </div>
+  </div>
+
+  <style>
+    .mychart rect {
+      fill: green;
+    }
+
+    .mychart rect:hover {
+      fill: goldenrod;
+    }
+
+    .mychart text {
+      font: 12px sans-serif;
+      text-anchor: left;
+    }
+  </style>
+
+  <script type="text/javascript">
     "use strict"
 
-      var margin = { top: 50, right: 0, bottom: 100, left: 90 },
-          width = 960 - margin.left - margin.right,
-          height = 430 - margin.top - margin.bottom,
-          gridSize = Math.floor(width / 18),
-          legendElementWidth = gridSize*2,
-          buckets = 9,
-          colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], // alternatively colorbrewer.YlGnBu[9]
-          days = ["Burrinhos", "Bob's", "Jackson"],
-          times = ["6h", "7h", "8h", "9h", "10h", "11h", "12h", "13h", "14h", "15h", "16h", "17h", "18h", "19h", "20h"];
 
-      var svg = d3.select("#chart").append("svg")
-          .attr("width", width + margin.left + margin.right)
-          .attr("height", height + margin.top + margin.bottom)
-          .append("g")
-          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    function desenhaBarras(dados) {
 
-      var dayLabels = svg.selectAll(".dayLabel")
-          .data(days)
-          .enter().append("text")
-            .text(function (d) { return d; })
-            .attr("x", 0)
-            .attr("y", function (d, i) { return i * gridSize; })
-            .style("text-anchor", "end")
-            .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-            .attr("class", function (d, i) { return ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"); });
+      var chuva = function(d) {return d.valor > 120},
+          cor = d3.scaleOrdinal(d3.schemeCategory20);
 
-      var timeLabels = svg.selectAll(".timeLabel")
-          .data(times)
-          .enter().append("text")
-            .text(function(d) { return d; })
-            .attr("x", function(d, i) { return i * gridSize; })
-            .attr("y", 0)
-            .style("text-anchor", "middle")
-            .attr("transform", "translate(" + gridSize / 2 + ", -6)")
-            .attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); });
+      var alturaSVG = 500, larguraSVG = 900;
+      var	margin = {top: 10, right: 20, bottom:30, left: 45},
+          larguraVis = larguraSVG - margin.left - margin.right,
+          alturaVis = alturaSVG - margin.top - margin.bottom;
 
-      var heatmapChart = function(csvFile) {
-        d3.csv(csvFile,
-        function(d) {
-          return {
-            day: +d.day,
-            hour: +d.hour,
-            value: +d.value
-          };
-        },
-        function(error, data) {
-          var colorScale = d3.scale.quantile()
-              .domain([0, d3.max(csvFile, function (d) { return d.value; })])
-              .range(colors);
+      var grafico = d3.select('#chart')
+                      .append('svg')
+                        .attr('width', larguraVis + margin.left + margin.right)
+                        .attr('height', alturaVis + margin.top + margin.bottom)
+                      .append('g')
+                        .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
-          var cards = svg.selectAll(".hour")
-              .data(csvFile, function(d) {return d.day+':'+d.hour;});
+      var x = d3.scaleLinear()
+              .domain([0, 100])
+              .rangeRound([0,larguraVis]);
 
-          cards.append("title");
+      var y = d3.scaleLinear()
+              .domain([0, 100])
+              .rangeRound([alturaVis,0]);
 
-          cards.enter().append("rect")
-              .attr("x", function(d) { return (d.horario_inicial - 1) * gridSize; })
-              .attr("y", function(d) { return (d.local - 1) * gridSize; })
-              .attr("rx", 4)
-              .attr("ry", 4)
-              .attr("class", "hour bordered")
-              .attr("width", gridSize)
-              .attr("height", gridSize)
-              .style("fill", colors[0]);
+      grafico.selectAll('g')
+            .data(dados)
+              .enter()
+            .append('circle')
+            .attr('r', 10)
+            .attr('cx', function(d) {return d.valor})
+            .attr('width', function(d) {return larguraVis - d.valor})
+            .attr('cy', function(d) {return d.horario})
+            .attr('height', function(d) {return alturaVis - d.horario})
+            .style("fill", function(d) {return cor(chuva(d))});
 
-          cards.transition().duration(1000)
-              .style("fill", function(d) { return colorScale(d.value); });
+      grafico.append("g")
+             .attr("class", "x axis")
+             .attr("transform", "translate(0," + alturaVis + ")")
+             .call(d3.axisBottom(x));
 
-          cards.select("title").text(function(d) { return d.value; });
+      grafico.append("text")
+             .attr("transform", "translate(" + larguraVis/2 + "," + (alturaVis + margin.bottom) + ") ")
+             .text("Média de pedestres");
 
-          cards.exit().remove();
+      grafico.append('g')
+             .attr('transform', 'translate(0,0)')
+             .call(d3.axisLeft(y))
 
-          var legend = svg.selectAll(".legend")
-              .data([0].concat(colorScale.quantiles()), function(d) { return d; });
+      grafico.append("text")
+             .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
+             .text("Horas");
+    }
 
-          legend.enter().append("g")
-              .attr("class", "legend");
+    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/pedestres_jackson_mean.csv', function(dados) {
+      desenhaBarras(dados);
+    });
 
-          legend.append("rect")
-            .attr("x", function(d, i) { return legendElementWidth * i; })
-            .attr("y", height)
-            .attr("width", legendElementWidth)
-            .attr("height", gridSize / 2)
-            .style("fill", function(d, i) { return colors[i]; });
-
-          legend.append("text")
-            .attr("class", "mono")
-            .text(function(d) { return "≥ " + Math.round(d); })
-            .attr("x", function(d, i) { return legendElementWidth * i; })
-            .attr("y", height + gridSize);
-
-          legend.exit().remove();
-
-        });
-      };
-
-      heatmapChart('https://raw.githubusercontent.com/luizaugustomm/pessoas-no-acude/master/dados/processados/dados.csv');
     </script>
   </body>
 </html>
