@@ -92,8 +92,8 @@ draft: false
           cards.append("title");
 
           cards.enter().append("rect")
-              .attr("x", function(d) { return (d.horario_inicial - 1) * gridSize; })
-              .attr("y", function(d) { return (d.local - 1) * gridSize; })
+              .attr("x", function(d) { return (d.horario) * gridSize; })
+              .attr("y", function(d) { return (d.local) * gridSize; })
               .attr("rx", 4)
               .attr("ry", 4)
               .attr("class", "hour bordered")
@@ -132,7 +132,136 @@ draft: false
         });
       };
 
-      heatmapChart('https://raw.githubusercontent.com/luizaugustomm/pessoas-no-acude/master/dados/processados/dados.csv');
+      heatmapChart('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/pedestres_mean.csv');
+    </script>
+  </body>
+</html>
+
+
+
+
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  <body>
+    <div id="chart"></div>
+    <script type="text/javascript">
+    "use strict"
+
+    var chart = circularHeatChart()
+    .innerRadius(20)
+    .radialLabels(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+    .segmentLabels(["6am", "7am", "8am", "9am", "10am", "11am", "Midday", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm"]);
+
+    var dados = "https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/pedestres_mean.csv";
+
+    d3.select('#energychart')
+      .selectAll('svg')
+      .data([dados])
+      .enter()
+      .append('svg')
+      .call(chart);
+
+    </script>
+  </body>
+</html>
+
+
+
+
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+    </div>
+    <div class="row mychart" id="chart">
+    </div>
+  </div>
+
+  <style>
+    .mychart rect {
+      fill: green;
+    }
+
+    .mychart rect:hover {
+      fill: goldenrod;
+    }
+
+    .mychart text {
+      font: 12px sans-serif;
+      text-anchor: left;
+    }
+  </style>
+
+  <script type="text/javascript">
+    "use strict"
+
+
+    function desenhaBarras(dados) {
+
+      var chuva = function(d) {return d.value > 120},
+          cor = d3.scaleOrdinal(d3.schemeCategory20);
+
+      var alturaSVG = 500, larguraSVG = 900;
+      var	margin = {top: 10, right: 20, bottom:30, left: 45},
+          larguraVis = larguraSVG - margin.left - margin.right,
+          alturaVis = alturaSVG - margin.top - margin.bottom;
+
+      var grafico = d3.select('#chart')
+                      .append('svg')
+                        .attr('width', larguraVis + margin.left + margin.right)
+                        .attr('height', alturaVis + margin.top + margin.bottom)
+                      .append('g')
+                        .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
+
+      var x = d3.scaleLinear()
+              .domain([0, 200])
+              .rangeRound([0,larguraVis]);
+
+      var y = d3.scaleLinear()
+              .domain([5, 21])
+              .rangeRound([alturaVis,0]);
+
+      grafico.selectAll('g')
+            .data(dados)
+              .enter()
+            .append('circle')
+            .attr('r', 10)
+            .attr('cx', d => x(d.value))
+            .attr('width', (d) => alturaVis - x(d.value))
+            .attr('cy', d => y(d.horario))
+            .attr('height', (d) => alturaVis - y(d.horario))
+            .style("fill", function(d) {return cor(chuva(d))});
+
+      grafico.append("g")
+             .attr("class", "x axis")
+             .attr("transform", "translate(0," + alturaVis + ")")
+             .call(d3.axisBottom(x));
+
+      grafico.append("text")
+             .attr("transform", "translate(" + larguraVis/2 + "," + (alturaVis + margin.bottom) + ") ")
+             .text("Noventa Percentil");
+
+      grafico.append('g')
+             .attr('transform', 'translate(0,0)')
+             .call(d3.axisLeft(y))
+
+      grafico.append("text")
+             .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
+             .text("Dez Percentil");
+    }
+
+    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/pedestres_bobs_mean.csv', function(dados) {
+      desenhaBarras(dados);
+    });
+
     </script>
   </body>
 </html>
