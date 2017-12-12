@@ -19,13 +19,6 @@ draft: false
   </div>
 
   <style>
-    .mychart rect {
-      fill: green;
-    }
-
-    .mychart rect:hover {
-      fill: goldenrod;
-    }
 
     .mychart text {
       font: 12px sans-serif;
@@ -37,16 +30,20 @@ draft: false
     "use strict"
 
 
-    function desenhaBarras(dados) {
+    function desenhaPontos(dados) {
 
       var cores = function(d) {
-        if (d.local === "bobs") {
-          return "#ea0e0e";
-        } else if (d.local === "burrinhos") {
-          return "#442306";
+        var retorno;
+        if (d === "bobs") {
+          retorno = "#ea0e0e";
+        }
+         else if (d === "burrinhos") {
+          retorno = "#442306";
         } else {
-          return "#343438";
-        }};
+          retorno = "#37cc5c";
+        }
+      return retorno;
+    };
 
       var alturaSVG = 500, larguraSVG = 900;
       var	margin = {top: 10, right: 20, bottom:30, left: 45},
@@ -61,7 +58,7 @@ draft: false
                         .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
       var x = d3.scaleLinear()
-              .domain([0, 300])
+              .domain([0, 250])
               .rangeRound([0,larguraVis]);
 
       var y = d3.scaleLinear()
@@ -73,8 +70,8 @@ draft: false
               .enter()
             .append('circle')
             .attr('r', 10)
-            .attr('cx', function(d) {return parseInt(d.total_pedestres)})
-            .attr('cy', function(d) {return parseInt(d.horario_inicial)})
+            .attr('cx', function(d,i) {return x(d.total_pedestres)})
+            .attr('cy', function(d,i) {return y(parseInt(d.horario_inicial))})
             .style("fill", function(d) {return cores(d.local)});
 
 
@@ -97,7 +94,7 @@ draft: false
     }
 
     d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/media-pessoas-lugares.csv', function(dados) {
-      desenhaBarras(dados);
+      desenhaPontos(dados);
     });
 
     </script>
@@ -125,7 +122,7 @@ draft: false
 
   <style>
     .mychart rect {
-      fill: green;
+      fill: #37cc5c;
     }
 
     .mychart rect:hover {
@@ -143,7 +140,7 @@ draft: false
 
 
     function desenhaBarras(dados) {
-      var alturaSVG = 600, larguraSVG = 1000;
+      var alturaSVG = 500, larguraSVG = 900;
       var	margin = {top: 10, right: 20, bottom:30, left: 45},
           larguraVis = larguraSVG - margin.left - margin.right,
           alturaVis = alturaSVG - margin.top - margin.bottom;
@@ -155,23 +152,25 @@ draft: false
                       .append('g')
                         .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
+      var n = 14;
+
       var x = d3.scaleBand()
-                .domain([100, 3])
-                .rangeRound([alturaVis,0])
+                .domain([6, n + 6])
+                .rangeRound([0, larguraVis])
                 .padding([0.2]);
 
       var y = d3.scaleLinear()
-                .domain([150, 0])
-                .rangeRound([0, alturaVis]);
+                .domain([0, 150])
+                .rangeRound([alturaVis, 0]);
 
       grafico.selectAll('g')
             .data(dados)
               .enter()
             .append('rect')
-            .attr('x', function(d) {return d.total_pedestres})
+            .attr('x', function(d,i) {return x(i + 6)})
             .attr('width', 20)
-            .attr('y', function(d) {return parseInt(d.horario_inicial)})
-            .attr('height', (d) => parseInt(alturaVis) - y(d.total_pedestres));
+            .attr('y', 10)
+            .attr('height', function(d) {return d.total_pedestres});
 
       grafico.append("g")
              .attr("class", "x axis")
