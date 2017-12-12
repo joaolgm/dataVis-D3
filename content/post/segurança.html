@@ -154,7 +154,7 @@ draft: false
                         .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
       var x = d3.scaleBand()
-                .domain(dados.map((d, i) => d.horario_inicial))
+                .domain(dados.map((d, i) => d.hora))
                 .rangeRound([0, larguraVis])
                 .padding([0.2]);
 
@@ -168,8 +168,8 @@ draft: false
             .append('rect')
             .attr('x', function(d) {return x(d.hora)})
             .attr('width', 45)
-            .attr('y', function(d) {return y(d.filter((d) => d.tipo === "carros"))})
-            .attr('height', function(d) {return alturaVis - y(d.total_pedestres)});
+          //  .attr('y', function(d) {return y(dados.filter((d) => d.tipo === "carros"), d => d.mean)})
+            .attr('height', function(d) {return alturaVis - y(d.mean)});
 
       grafico.append("g")
              .attr("class", "x axis")
@@ -182,10 +182,10 @@ draft: false
 
       grafico.append("text")
              .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
-             .text("Frequencia");
+             .text("Média de carros");
     }
 
-    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/media-pessoas-lugares.csv', function(dados) {
+    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/fluxos-mean.csv', function(dados) {
       desenhaBarras(dados);
     });
 

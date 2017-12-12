@@ -242,6 +242,7 @@
 
 
 <head>
+  <meta charset="utf-8">
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
@@ -286,25 +287,23 @@
                       .append('g')
                         .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
-      var n = 14;
-
       var x = d3.scaleBand()
-                .domain([6, n + 6])
+                .domain(dados.map((d, i) => d.hora))
                 .rangeRound([0, larguraVis])
                 .padding([0.2]);
 
       var y = d3.scaleLinear()
-                .domain([0, 150])
+                .domain([0, 400])
                 .rangeRound([alturaVis, 0]);
 
       grafico.selectAll('g')
             .data(dados)
               .enter()
             .append('rect')
-            .attr('x', function(d,i) {return x(i + 6)})
-            .attr('width', 20)
-            .attr('y', 10)
-            .attr('height', function(d) {return d.total_pedestres});
+            .attr('x', function(d) {return x(d.hora)})
+            .attr('width', 45)
+          //  .attr('y', function(d) {return y(dados.filter((d) => d.tipo === "carros"), d => d.mean)})
+            .attr('height', function(d) {return alturaVis - y(d.mean)});
 
       grafico.append("g")
              .attr("class", "x axis")
@@ -317,10 +316,10 @@
 
       grafico.append("text")
              .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
-             .text("Frequencia");
+             .text("Média de carros");
     }
 
-    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/media-pessoas-lugares.csv', function(dados) {
+    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/fluxos-mean.csv', function(dados) {
       desenhaBarras(dados);
     });
 
