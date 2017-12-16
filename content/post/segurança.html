@@ -168,7 +168,7 @@ draft: false
             .append('rect')
             .attr('x', function(d) {return x(d.hora)})
             .attr('width', 45)
-          //  .attr('y', function(d) {return y(dados.filter((d) => d.tipo === "carros"), d => d.mean)})
+            .attr('y', function(d) {return y(dados.filter((d) => d.tipo === "carros"), d => d.mean)})
             .attr('height', function(d) {return alturaVis - y(d.mean)});
 
       grafico.append("g")
