@@ -20,6 +20,18 @@ draft: false
 
   <style>
 
+    .mychart rect {
+      fill: #FB5012;
+    }
+
+    .mychart rect:hover {
+      fill: #00BFB8;
+    }
+
+    .mychart circle:hover {
+      fill: #CBBAED;
+    }
+
     .mychart text {
       font: 12px sans-serif;
       text-anchor: left;
@@ -30,17 +42,17 @@ draft: false
     "use strict"
 
 
-    function desenhaPontos(dados) {
+    function desenhaPontosPedestres(dados) {
 
       var cores = function(d) {
         var retorno;
         if (d === "bobs") {
-          retorno = "#ea0e0e";
+          retorno = "#FB5012";
         }
          else if (d === "burrinhos") {
-          retorno = "#442306";
+          retorno = "#00BFB8";
         } else {
-          retorno = "#37cc5c";
+          retorno = "#CBBAED";
         }
       return retorno;
     };
@@ -58,11 +70,11 @@ draft: false
                         .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
       var x = d3.scaleLinear()
-              .domain([0, 250])
+              .domain([5, 21])
               .rangeRound([0,larguraVis]);
 
       var y = d3.scaleLinear()
-              .domain([5, 21])
+              .domain([0, 250])
               .rangeRound([alturaVis,0]);
 
       grafico.selectAll('g')
@@ -70,8 +82,8 @@ draft: false
               .enter()
             .append('circle')
             .attr('r', 10)
-            .attr('cx', function(d,i) {return x(d.total_pedestres)})
-            .attr('cy', function(d,i) {return y(parseInt(d.horario_inicial))})
+            .attr('cx', function(d,i) {return x(parseInt(d.horario_inicial))})
+            .attr('cy', function(d,i) {return y(d.total_pedestres)})
             .style("fill", function(d) {return cores(d.local)});
 
 
@@ -82,7 +94,7 @@ draft: false
 
       grafico.append("text")
              .attr("transform", "translate(" + larguraVis/2 + "," + (alturaVis + margin.bottom) + ") ")
-             .text("Média de pedestres");
+             .text("Horas");
 
       grafico.append('g')
              .attr('transform', 'translate(0,0)')
@@ -90,55 +102,68 @@ draft: false
 
       grafico.append("text")
              .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
-             .text("Horas");
+             .text("Média de pedestres");
     }
 
-    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/media-pessoas-lugares.csv', function(dados) {
-      desenhaPontos(dados);
-    });
-
-    </script>
-  </body>
-</html>
+    function desenhaPontosCiclistas(dados) {
 
 
+            var alturaSVG = 500, larguraSVG = 900;
+            var	margin = {top: 10, right: 20, bottom:30, left: 45},
+                larguraVis = larguraSVG - margin.left - margin.right,
+                alturaVis = alturaSVG - margin.top - margin.bottom;
+
+            var grafico = d3.select('#chart')
+                            .append('svg')
+                              .attr('width', larguraVis + margin.left + margin.right)
+                              .attr('height', alturaVis + margin.top + margin.bottom)
+                            .append('g')
+                              .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
+
+            var x = d3.scaleLinear()
+                    .domain([5, 21])
+                    .rangeRound([0,larguraVis]);
+
+            var y = d3.scaleLinear()
+                    .domain([0, 200])
+                    .rangeRound([alturaVis,0]);
+
+            grafico.selectAll('g')
+                  .data(dados.filter(d => d.tipo === "total_ciclistas"))
+                    .enter()
+                  .append('circle')
+                  .attr('r', 15)
+                  .attr('cx', function(d) {return x(d.hora)})
+                  .attr('cy', function(d) {return y(d.mean)})
+                  .style("fill", "#00BFB8");
+
+            grafico.selectAll('g')
+                  .data(dados.filter(d => d.tipo === "motos"))
+                    .enter()
+                  .append('circle')
+                  .attr('r', 15)
+                  .attr('cx', function(d) {return x(d.hora)})
+                  .attr('cy', function(d) {return y(d.mean)})
+                  .style("fill", "#FB5012");
 
 
+            grafico.append("g")
+                   .attr("class", "x axis")
+                   .attr("transform", "translate(0," + alturaVis + ")")
+                   .call(d3.axisBottom(x));
 
+            grafico.append("text")
+                   .attr("transform", "translate(" + larguraVis/2 + "," + (alturaVis + margin.bottom) + ") ")
+                   .text("Horas");
 
+            grafico.append('g')
+                   .attr('transform', 'translate(0,0)')
+                   .call(d3.axisLeft(y))
 
-<head>
-  <meta charset="utf-8">
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-    </div>
-    <div class="row mychart" id="chart">
-    </div>
-  </div>
-
-  <style>
-    .mychart rect {
-      fill: #37cc5c;
+            grafico.append("text")
+                   .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
+                   .text("Média de ciclistas");
     }
-
-    .mychart rect:hover {
-      fill: goldenrod;
-    }
-
-    .mychart text {
-      font: 12px sans-serif;
-      text-anchor: left;
-    }
-  </style>
-
-  <script type="text/javascript">
-    "use strict"
-
 
     function desenhaBarras(dados) {
       var alturaSVG = 500, larguraSVG = 900;
@@ -159,16 +184,17 @@ draft: false
                 .padding([0.2]);
 
       var y = d3.scaleLinear()
-                .domain([0, 400])
+                .domain([0, 450])
                 .rangeRound([alturaVis, 0]);
 
+
       grafico.selectAll('g')
-            .data(dados)
+            .data(dados.filter(d => d.tipo === "carros"))
               .enter()
             .append('rect')
             .attr('x', function(d) {return x(d.hora)})
             .attr('width', 45)
-            .attr('y', function(d) {return y(dados.filter((d) => d.tipo === "carros"), d => d.mean)})
+            .attr('y', function(d) {return y(d.mean)})
             .attr('height', function(d) {return alturaVis - y(d.mean)});
 
       grafico.append("g")
@@ -183,13 +209,22 @@ draft: false
       grafico.append("text")
              .attr("transform", "translate(-30," + (alturaVis + margin.top)/2 + ") rotate(-90)")
              .text("Média de carros");
+
+      grafico.append("text")
+             .attr("transform", "translate(" + larguraVis/2 + "," + (alturaVis + margin.bottom) + ") ")
+             .text("Horas");
+
     }
 
+    d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/media-pessoas-lugares.csv', function(dados) {
+      desenhaPontosPedestres(dados);
+    });
+
     d3.csv('https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/fluxos-mean.csv', function(dados) {
+      desenhaPontosCiclistas(dados);
       desenhaBarras(dados);
     });
 
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>

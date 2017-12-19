@@ -17,7 +17,7 @@
       <pubDate>Fri, 08 Dec 2017 10:55:24 -0300</pubDate>
       
       <guid>https://joaolgm.github.io/hugo-vis/post/seguran%C3%A7a/</guid>
-      <description>.mychart text {font: 12px sans-serif;text-anchor: left;}&#34;use strict&#34;function desenhaPontos(dados) {var cores = function(d) {var retorno;if (d === &#34;bobs&#34;) {retorno = &#34;#ea0e0e&#34;;}else if (d === &#34;burrinhos&#34;) {retorno = &#34;#442306&#34;;} else {retorno = &#34;#37cc5c&#34;;}return retorno;};var alturaSVG = 500, larguraSVG = 900;var	margin = {top: 10, right: 20, bottom:30, left: 45},larguraVis = larguraSVG - margin.</description>
+      <description>.mychart rect { fill: #FB5012; } .mychart rect:hover { fill: #00BFB8; } .mychart circle:hover { fill: #CBBAED; } .mychart text { font: 12px sans-serif; text-anchor: left; }  &#34;use strict&#34; function desenhaPontosPedestres(dados) { var cores = function(d) { var retorno; if (d === &#34;bobs&#34;) { retorno = &#34;#FB5012&#34;; } else if (d === &#34;burrinhos&#34;) { retorno = &#34;#00BFB8&#34;; } else { retorno = &#34;</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Wed, 29 Nov 2017 09:29:27 -0300</pubDate>
       
       <guid>https://joaolgm.github.io/hugo-vis/post/viz-d3/</guid>
-      <description>BoqueirãoPeríodos chuvosos no açude Epitácio Pessoa.mychart rect {fill: green;}.mychart rect:hover {fill: goldenrod;}.mychart text {font: 12px sans-serif;text-anchor: left;}&#34;use strict&#34;function desenhaBarras(dados) {var chuva = function(d) {return d.mes  5},cor = d3.scaleOrdinal(d3.schemeCategory20);var alturaSVG = 500, larguraSVG = 900;var	margin = {top: 10, right: 20, bottom:30, left: 45},larguraVis = larguraSVG - margin.</description>
+      <description>Boqueirão    Períodos chuvosos no açude Epitácio Pessoa     .mychart rect { fill: green; } .mychart rect:hover { fill: goldenrod; } .mychart text { font: 12px sans-serif; text-anchor: left; }  &#34;use strict&#34; function desenhaBarras(dados) { var chuva = function(d) {return d.mes  5}, cor = d3.scaleOrdinal(d3.schemeCategory20); var alturaSVG = 500, larguraSVG = 900; var	margin = {top: 10, right: 20, bottom:30, left: 45}, larguraVis = larguraSVG - margin.</description>
     </item>
     
     <item>
