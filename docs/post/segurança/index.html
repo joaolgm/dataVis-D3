@@ -145,12 +145,44 @@
 </head>
 
 <body>
+
+    <h1>Segurança no Açude Velho?</h1>
+    <h3>O Açude Velho é um local de Campina Grande muito frequentado durante todo o dia. Com uma grande
+    frequência de pedestres e ciclistas, por exemplo, me pergunto: com uma grande quantidade de pessoas
+    circulando será que é relamente seguro para um passeio, por exemplo? Tem alguma hora específica que
+    aparenta ser mais seguro?</h3>
+    <h3>Com o estudo de alguns números coletados ao redor do açude pude descobrir algumas
+    coisas sobre a movimentação do local.</h3>
   <div class="container">
     <div class="row">
     </div>
-    <div class="row mychart" id="chart">
+    <h2>Frequência dos pedestres</h2>
+    <div class="row mychart" id="chart1">
     </div>
+    <h4>Na visualização acima podemos analisar a frequência média de pedestres em três locais ao redor do açude,
+    os ao redores do Bob's está representado em vermelho, os ao redores da estátua de Jackson do Pandeiro está em azul e
+    em violeta está representado os ao redores do monumento ao Sesquicentenário de Campina Grande. É possível
+    analisar que existem piques de pedestres entre 6 e 7 horas da manhã e entre 5 e 6 horas da noite, com uma grande
+    queda ao se aproximar de 8 horas da noite.</h4>
+    <h2>Frequência de ciclistas e motociclistas</h2>
+    <div class="row mychart" id="chart2">
+    </div>
+    <h4>Na visualização acima temos marcações de duas cores, o vermelho indica a média de motociclistas nos três
+    locais anteriormente citados e o azul indica a média de ciclistas nos mesmos locais. É de fácil visualização
+    a maior quantidade de motos em todos os horários do dia, o que aponta para outro problema além da segurança,
+    a falta de costume e de estrutura mínima para se tornar possível o hábito do ciclismo.</h4>
+    <h2>Frequência de carros</h2>
+    <div class="row mychart" id="chart3">
+    </div>
+    <h4>Na visualização acima vemos a média de carros nos três locais em cada hora do dia. É notável a diferença da
+    quantidade média de carros em comparação com qualquer um das visualizações anteriores e os piques de movimento
+    são nos mesmos horários das outras visualizações. É comum de uma cidade urbanizada a maior quantidade de carros
+    em relação aos outros meios de transporte.</h4>
   </div>
+    <h3>Ao ler todas as três vizualizações, é fácil notar que existem horários com maior quantidade de pedestres
+    e ciclistas, o que passa uma maior sensação de segurança, ao mesmo tempo que percebemos que os meios de transporte
+    motorizados ainda são bem mais usados nesses horários. Concluo que existem horários que aparentam passar segurança
+    ao ler os números coletados, porém não é possível garantir segurança total.</h3>
 
   <style>
 
@@ -196,7 +228,7 @@
           larguraVis = larguraSVG - margin.left - margin.right,
           alturaVis = alturaSVG - margin.top - margin.bottom;
 
-      var grafico = d3.select('#chart')
+      var grafico = d3.select('#chart1')
                       .append('svg')
                         .attr('width', larguraVis + margin.left + margin.right)
                         .attr('height', alturaVis + margin.top + margin.bottom)
@@ -247,7 +279,7 @@
                 larguraVis = larguraSVG - margin.left - margin.right,
                 alturaVis = alturaSVG - margin.top - margin.bottom;
 
-            var grafico = d3.select('#chart')
+            var grafico = d3.select('#chart2')
                             .append('svg')
                               .attr('width', larguraVis + margin.left + margin.right)
                               .attr('height', alturaVis + margin.top + margin.bottom)
@@ -305,7 +337,7 @@
           larguraVis = larguraSVG - margin.left - margin.right,
           alturaVis = alturaSVG - margin.top - margin.bottom;
 
-      var grafico = d3.select('#chart')
+      var grafico = d3.select('#chart3')
                       .append('svg')
                         .attr('width', larguraVis + margin.left + margin.right)
                         .attr('height', alturaVis + margin.top + margin.bottom)
