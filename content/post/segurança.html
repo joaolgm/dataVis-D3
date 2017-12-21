@@ -31,6 +31,8 @@ draft: false
     queda ao se aproximar das 8 horas da noite.</h4>
     <h2>Frequência de ciclistas e motociclistas</h2>
     <div class="row mychart" id="chart2">
+      <div class="col-md-9" id="controls" />
+        </div>
     </div>
     <h4>Na visualização acima temos marcações de duas cores, o vermelho indica a média de motociclistas nos três
     locais anteriormente citados e o azul indica a média de ciclistas nos mesmos locais. É de fácil visualização
@@ -48,6 +50,7 @@ draft: false
     e ciclistas, o que passa uma maior sensação de segurança, ao mesmo tempo que percebemos que os meios de transporte
     motorizados ainda são bem mais usados nesses horários. Concluo que existem horários que aparentam passar segurança
     ao ler os números coletados, porém não é possível garantir segurança total.</h3>
+
 
   <style>
 
@@ -138,6 +141,7 @@ draft: false
 
     function desenhaPontosCiclistas(dados) {
 
+            var dadosLidos = dados.filter(d => d.tipo === "carros");
 
             var alturaSVG = 500, larguraSVG = 900;
             var	margin = {top: 10, right: 20, bottom:30, left: 45},
@@ -149,6 +153,7 @@ draft: false
                               .attr('width', larguraVis + margin.left + margin.right)
                               .attr('height', alturaVis + margin.top + margin.bottom)
                             .append('g')
+                              .attr("class", "depto")
                               .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
             var x = d3.scaleLinear()
@@ -177,6 +182,31 @@ draft: false
                   .attr('cy', function(d) {return y(d.mean)})
                   .style("fill", "#FB5012");
 
+            /*
+             * Botões para visualizar diferentes atributos dos dados
+             */
+            const dataKeys = Object.keys(dadosLidos[0])
+              .filter(d => d !== "hora" && d !== "mean")
+
+            d3.select("#controls").selectAll("button.teams")
+              .data(dataKeys)
+              .enter()
+                .append("button")
+                .attr("class", "btn-default")
+                .on("click", botaoClicado)
+                .html(d => d);
+
+                function botaoClicado(dimensao) {
+                var maxValue = d3.max(dadosLidos, d => parseFloat(d[dimensao]))
+                var radiusScale = d3.scaleLinear()
+                                .domain([ 0, maxValue ])
+                                .rangeRound([ 2, 25 ])
+                d3.selectAll("g.depto")
+                  .select("circle")
+                  //.transition().duration(700) // descomente aqui para testar
+                  .attr("cy", function (d) {return radiusScale(d[dimensao])})
+              }
+
 
             grafico.append("g")
                    .attr("class", "x axis")
@@ -197,6 +227,9 @@ draft: false
     }
 
     function desenhaBarras(dados) {
+
+      var dadosLidos = dados.filter(d => d.tipo === "carros");
+
       var alturaSVG = 500, larguraSVG = 900;
       var	margin = {top: 10, right: 20, bottom:30, left: 45},
           larguraVis = larguraSVG - margin.left - margin.right,
@@ -220,7 +253,7 @@ draft: false
 
 
       grafico.selectAll('g')
-            .data(dados.filter(d => d.tipo === "carros"))
+            .data(dadosLidos)
               .enter()
             .append('rect')
             .attr('x', function(d) {return x(d.hora)})
