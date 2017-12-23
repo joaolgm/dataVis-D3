@@ -161,14 +161,14 @@ draft: false
                     .rangeRound([0,larguraVis]);
 
             var y = d3.scaleLinear()
-                    .domain([0, 200])
+                    .domain([0, 400])
                     .rangeRound([alturaVis,0]);
 
             grafico.selectAll('g')
                   .data(dados.filter(d => d.tipo === "total_ciclistas"))
                     .enter()
                   .append('circle')
-                  .attr('r', 15)
+                  .attr('r', 10)
                   .attr('cx', function(d) {return x(d.hora)})
                   .attr('cy', function(d) {return y(d.mean)})
                   .style("fill", "#00BFB8");
@@ -177,7 +177,7 @@ draft: false
                   .data(dados.filter(d => d.tipo === "motos"))
                     .enter()
                   .append('circle')
-                  .attr('r', 15)
+                  .attr('r', 10)
                   .attr('cx', function(d) {return x(d.hora)})
                   .attr('cy', function(d) {return y(d.mean)})
                   .style("fill", "#FB5012");
@@ -186,7 +186,7 @@ draft: false
              * Botões para visualizar diferentes atributos dos dados
              */
             const dataKeys = Object.keys(dadosLidos[0])
-              .filter(d => d !== "hora" && d !== "mean")
+              .filter(d => d !== "hora" && d !== "tipo")
 
             d3.select("#controls").selectAll("button.teams")
               .data(dataKeys)
@@ -201,10 +201,14 @@ draft: false
                 var radiusScale = d3.scaleLinear()
                                 .domain([ 0, maxValue ])
                                 .rangeRound([ 2, 25 ])
-                d3.selectAll("g.depto")
-                  .select("circle")
-                  //.transition().duration(700) // descomente aqui para testar
-                  .attr("cy", function (d) {return radiusScale(d[dimensao])})
+
+                grafico.selectAll('g')
+                      .data(dataKeys)
+                        .enter()
+                      .append('circle')
+                      .attr('cy', function(d) {return y(d.dimensao)})
+                      //.transition().duration(700) // descomente aqui para testar
+                      .style("fill", "#00BFB8");
               }
 
 

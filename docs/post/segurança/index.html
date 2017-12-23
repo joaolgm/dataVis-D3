@@ -165,6 +165,8 @@
     queda ao se aproximar das 8 horas da noite.</h4>
     <h2>Frequência de ciclistas e motociclistas</h2>
     <div class="row mychart" id="chart2">
+      <div class="col-md-9" id="controls" />
+        </div>
     </div>
     <h4>Na visualização acima temos marcações de duas cores, o vermelho indica a média de motociclistas nos três
     locais anteriormente citados e o azul indica a média de ciclistas nos mesmos locais. É de fácil visualização
@@ -182,6 +184,7 @@
     e ciclistas, o que passa uma maior sensação de segurança, ao mesmo tempo que percebemos que os meios de transporte
     motorizados ainda são bem mais usados nesses horários. Concluo que existem horários que aparentam passar segurança
     ao ler os números coletados, porém não é possível garantir segurança total.</h3>
+
 
   <style>
 
@@ -272,6 +275,7 @@
 
     function desenhaPontosCiclistas(dados) {
 
+            var dadosLidos = dados.filter(d => d.tipo === "carros");
 
             var alturaSVG = 500, larguraSVG = 900;
             var	margin = {top: 10, right: 20, bottom:30, left: 45},
@@ -283,6 +287,7 @@
                               .attr('width', larguraVis + margin.left + margin.right)
                               .attr('height', alturaVis + margin.top + margin.bottom)
                             .append('g')
+                              .attr("class", "depto")
                               .attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')');
 
             var x = d3.scaleLinear()
@@ -290,14 +295,14 @@
                     .rangeRound([0,larguraVis]);
 
             var y = d3.scaleLinear()
-                    .domain([0, 200])
+                    .domain([0, 400])
                     .rangeRound([alturaVis,0]);
 
             grafico.selectAll('g')
                   .data(dados.filter(d => d.tipo === "total_ciclistas"))
                     .enter()
                   .append('circle')
-                  .attr('r', 15)
+                  .attr('r', 10)
                   .attr('cx', function(d) {return x(d.hora)})
                   .attr('cy', function(d) {return y(d.mean)})
                   .style("fill", "#00BFB8");
@@ -306,10 +311,39 @@
                   .data(dados.filter(d => d.tipo === "motos"))
                     .enter()
                   .append('circle')
-                  .attr('r', 15)
+                  .attr('r', 10)
                   .attr('cx', function(d) {return x(d.hora)})
                   .attr('cy', function(d) {return y(d.mean)})
                   .style("fill", "#FB5012");
+
+            /*
+             * Botões para visualizar diferentes atributos dos dados
+             */
+            const dataKeys = Object.keys(dadosLidos[0])
+              .filter(d => d !== "hora" && d !== "tipo")
+
+            d3.select("#controls").selectAll("button.teams")
+              .data(dataKeys)
+              .enter()
+                .append("button")
+                .attr("class", "btn-default")
+                .on("click", botaoClicado)
+                .html(d => d);
+
+                function botaoClicado(dimensao) {
+                var maxValue = d3.max(dadosLidos, d => parseFloat(d[dimensao]))
+                var radiusScale = d3.scaleLinear()
+                                .domain([ 0, maxValue ])
+                                .rangeRound([ 2, 25 ])
+
+                grafico.selectAll('g')
+                      .data(dataKeys)
+                        .enter()
+                      .append('circle')
+                      .attr('cy', function(d) {return y(d.dimensao)})
+                      //.transition().duration(700) // descomente aqui para testar
+                      .style("fill", "#00BFB8");
+              }
 
 
             grafico.append("g")
@@ -331,6 +365,9 @@
     }
 
     function desenhaBarras(dados) {
+
+      var dadosLidos = dados.filter(d => d.tipo === "carros");
+
       var alturaSVG = 500, larguraSVG = 900;
       var	margin = {top: 10, right: 20, bottom:30, left: 45},
           larguraVis = larguraSVG - margin.left - margin.right,
@@ -354,7 +391,7 @@
 
 
       grafico.selectAll('g')
-            .data(dados.filter(d => d.tipo === "carros"))
+            .data(dadosLidos)
               .enter()
             .append('rect')
             .attr('x', function(d) {return x(d.hora)})
