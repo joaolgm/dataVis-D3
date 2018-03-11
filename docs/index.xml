@@ -6,10 +6,19 @@
     <description>Recent content on Visualizações</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Dec 2017 10:55:24 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 10 Mar 2018 21:15:57 -0300</lastBuildDate>
     
 	<atom:link href="https://joaolgm.github.io/hugo-vis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rap NE</title>
+      <link>https://joaolgm.github.io/hugo-vis/post/rap-ne/</link>
+      <pubDate>Sat, 10 Mar 2018 21:15:57 -0300</pubDate>
+      
+      <guid>https://joaolgm.github.io/hugo-vis/post/rap-ne/</guid>
+      <description>.node { fill: #ccc; stroke: #fff; stroke-width: 2px; } .link { stroke: #999; stroke-opacity: 0.3; }     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa &#34;use strict&#34; var width = 1000, height = 1000; var svg = d3.select(&#34;#chart&#34;) .append(&#34;svg&#34;) .attr(&#39;version&#39;, &#39;1.1&#39;) .attr(&#39;viewBox&#39;, &#39;0 0 &#39;+width+&#39; &#39;+height) .attr(&#39;width&#39;, &#39;100%&#39;); var color = d3.scaleOrdinal(d3.schemeCategory10); var simulation = d3.forceSimulation() .force(&#34;link&#34;, d3.forceLink().id(function(d) { return d.id; })) .force(&#34;charge&#34;, d3.forceManyBody()) .force(&#34;center&#34;, d3.forceCenter(width / 2, height / 2)); d3.</description>
+    </item>
     
     <item>
       <title>Segurança</title>

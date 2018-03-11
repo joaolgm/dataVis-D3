@@ -3,11 +3,25 @@ title: "Rap NE"
 date: 2018-03-10T21:15:57-03:00
 draft: false
 ---
-
+<!DOCTYPE html>
+<html>
 <meta charset="utf-8">
 <head>
   <script src="https://d3js.org/d3.v4.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+			.node {
+			    fill: #ccc;
+			    stroke: #fff;
+			    stroke-width: 2px;
+			}
+
+			.link {
+					stroke: #999;
+					stroke-opacity: 0.3;
+			}
+    </style>
+
 </head>
 
 <body>
@@ -16,7 +30,9 @@ draft: false
 
 
 <!-- scripts -->
-	<script>
+	<script type="text/javascript">
+      "use strict"
+
 		var
 		    width = 1000,
 		    height = 1000;
@@ -34,7 +50,7 @@ draft: false
 		    .force("charge", d3.forceManyBody())
 		    .force("center", d3.forceCenter(width / 2, height / 2));
 
-		d3.json("data/chinaski.json", function(error, graph) {
+		d3.json("https://raw.githubusercontent.com/joaolgm/hugo-vis/master/data/chinaski.json", function(error, graph) {
 		  if (error) throw error;
 
 			console.dir(graph.edges);
@@ -99,3 +115,5 @@ draft: false
 		}
 
 </script>
+</body>
+</html>
