@@ -20,18 +20,46 @@ draft: false
 					stroke: #999;
 					stroke-opacity: 0.3;
 			}
-    </style>
+  </style>
 
 </head>
 
 <body>
-<p> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-</p>
+<h1>Rap NE</h1>
+
+<h4>Nesse post teremos uma visualização de redes :)
+</h4>
+
+<h4>O rap produzido no Brasil já não faz tanto sucesso assim como em seus tempos
+  de ouro e mesmo assim uma grande parcela dos lançamentos que ouvimos falar são
+  originários das regiões Sul/Suldeste. Como nordestino, sinto a necessidade de
+  mostrar que também existem artistas nordestinos no rap em atividade, porém que não
+  recebem a divulgação e conhecimento que merecem.
+</h4>
+
+<div class="container"><div id="chart"></div> </div>
+<h4>Com esse enorme grafo na tela podemos observar a ligação entre alguns
+  artistas segundo dados do Spotify. Nesta visualização escolhi focar a cena
+  do rap no nordeste, apurei dados de Diomedes Chinaski, cantor e compositor pernambucano,
+  como artista principal (círculo azul), ao passar o cursor por cada círculo irá
+  mostrar o nome do artista. Ao redor dele estão artistas relacionados
+  com seu estilo musical (círculos laranja), por exemplo Baco Exu do Blues, cantor
+  e compositor baiano. O tamanho do raio de cada círculo mostra a popularidade de
+  cada a artista.
+</h4>
+
+<h4>Como disse antes, é possível notar que há círculos de artistas do Sul/Sudeste
+  que são maiores que o próprio artista que escolhi tomar como base. A cena do rap
+  nordestino ainda é pequena e pouco conhecida, porém já dispõe qualidade e talento
+  de sobra.
+</h4>
 
 
 <!-- scripts -->
 	<script type="text/javascript">
       "use strict"
+
+      console.log("quem não jogar o corpo de um lado pro outro e sair do chão, vai morrer na saída");
 
 		var
 		    width = 1000,
@@ -67,8 +95,9 @@ draft: false
 		    .selectAll("circle")
 		    	.data(graph.nodes)
 		    .enter().append("circle")
-		      .attr("r", 5)
+		      .attr("r", function(d) { return (d.size*0.2 + 4)})
 		      .attr("fill", function(d) { return color(d.color); })
+          .attr("opacity", 0.6)
 		      .call(d3.drag()
 		          .on("start", dragstarted)
 		          .on("drag", dragged)
