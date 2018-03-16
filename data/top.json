@@ -1,0 +1,2518 @@
+{
+  "nodes": [
+    {
+      "id": "3TVXtAsR1Inumwj472S9r4",
+      "name": "Drake",
+      "genres": [
+        "canadian pop",
+        "hip hop",
+        "pop rap",
+        "rap"
+      ],
+      "img": "https://i.scdn.co/image/cb080366dc8af1fe4dc90c4b9959794794884c66",
+      "url": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+    },
+    {
+      "id": "7Ln80lUS6He07XvHI8qqHH",
+      "name": "Arctic Monkeys",
+      "genres": [
+        "garage rock",
+        "indie rock",
+        "modern rock",
+        "permanent wave",
+        "sheffield indie"
+      ],
+      "img": "https://i.scdn.co/image/c488bf987b2f716a539a768a102855450345113d",
+      "url": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH"
+    },
+    {
+      "id": "00FQb4jTyendYWaN8pK0wa",
+      "name": "Lana Del Rey",
+      "genres": [
+        "dance pop",
+        "pop"
+      ],
+      "img": "https://i.scdn.co/image/56a3782b07eab32b5340f164c566349450ee84cd",
+      "url": "https://open.spotify.com/artist/00FQb4jTyendYWaN8pK0wa"
+    },
+    {
+      "id": "2vaWvC8suCFkRXejDOK7EE",
+      "name": "SOJA",
+      "genres": [],
+      "img": "https://i.scdn.co/image/167559fb94f2c38d2b5db518b461c600aaa3cc40",
+      "url": "https://open.spotify.com/artist/2vaWvC8suCFkRXejDOK7EE"
+    },
+    {
+      "id": "7Brxri4l1ATShikyHXsEr6",
+      "name": "Los Hermanos",
+      "genres": [
+        "mpb",
+        "rock gaucho",
+        "samba"
+      ],
+      "img": "https://i.scdn.co/image/8354d4871ce4c1d79b0aaabb236df9c064134d3a",
+      "url": "https://open.spotify.com/artist/7Brxri4l1ATShikyHXsEr6"
+    },
+    {
+      "id": "3h7RaVXBvdSNa7LXQtVYqH",
+      "name": "Armandinho",
+      "genres": [
+        "brazilian electronica",
+        "pagode"
+      ],
+      "img": "https://i.scdn.co/image/4b073f363c54d5e9dff3f3e12c079184773e8d14",
+      "url": "https://open.spotify.com/artist/3h7RaVXBvdSNa7LXQtVYqH"
+    },
+    {
+      "id": "7dGJo4pcD2V6oG8kP0tJRR",
+      "name": "Eminem",
+      "genres": [
+        "detroit hip hop",
+        "g funk",
+        "hip hop",
+        "rap"
+      ],
+      "img": "https://i.scdn.co/image/6c3ecb13aa0160b990cc957292751f229c9b5b7b",
+      "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+    },
+    {
+      "id": "6XyY86QOPPrYVGvF9ch6wz",
+      "name": "Linkin Park",
+      "genres": [
+        "alternative metal",
+        "nu metal",
+        "post-grunge",
+        "rap metal"
+      ],
+      "img": "https://i.scdn.co/image/1685533969d5b68cbc630f991e873bd6467f1814",
+      "url": "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz"
+    },
+    {
+      "id": "7fAKtXSdNInWAIf0jVUz65",
+      "name": "Roberto Carlos",
+      "genres": [
+        "mpb"
+      ],
+      "img": "https://i.scdn.co/image/45e8967f18679d0a5791c7f647d9f7ab1bc20f3c",
+      "url": "https://open.spotify.com/artist/7fAKtXSdNInWAIf0jVUz65"
+    },
+    {
+      "id": "0XNa1vTidXlvJ2gHSsRi4A",
+      "name": "Franz Ferdinand",
+      "genres": [
+        "alternative rock",
+        "dance-punk",
+        "garage rock",
+        "indie rock",
+        "modern rock",
+        "new rave",
+        "rock"
+      ],
+      "img": "https://i.scdn.co/image/445c11fcc1637f94f48cee1d3354d478f10ac403",
+      "url": "https://open.spotify.com/artist/0XNa1vTidXlvJ2gHSsRi4A"
+    },
+    {
+      "id": "0C0XlULifJtAgn6ZNCW2eu",
+      "name": "The Killers",
+      "genres": [
+        "alternative rock",
+        "indie christmas",
+        "indie rock",
+        "modern rock",
+        "permanent wave",
+        "pop christmas",
+        "rock",
+        "vegas indie"
+      ],
+      "img": "https://i.scdn.co/image/a841f0ee4f2d88c42f55f76c2cc6b588841f5d2f",
+      "url": "https://open.spotify.com/artist/0C0XlULifJtAgn6ZNCW2eu"
+    },
+    {
+      "id": "0L8ExT028jH3ddEcZwqJJ5",
+      "name": "Red Hot Chili Peppers",
+      "genres": [
+        "alternative metal",
+        "alternative rock",
+        "funk metal",
+        "permanent wave",
+        "post-grunge",
+        "rock"
+      ],
+      "img": "https://i.scdn.co/image/5b2072e522bf3324019a8c2dc3db20116dff0b87",
+      "url": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"
+    },
+    {
+      "id": "73HkjgziMO6I83vFOS8mo1",
+      "name": "Supercombo",
+      "genres": [],
+      "img": "https://i.scdn.co/image/eb7737f3fe517865bc083ac93014499c529d16ac",
+      "url": "https://open.spotify.com/artist/73HkjgziMO6I83vFOS8mo1"
+    },
+    {
+      "id": "2WUEIWbgWLEHxE1h5a6qiC",
+      "name": "The Liverpool Band",
+      "genres": [
+        "tribute"
+      ],
+      "img": "https://i.scdn.co/image/d1a96ddd0490ccf2dfe34fc12f9fd5dc7243e5fd",
+      "url": "https://open.spotify.com/artist/2WUEIWbgWLEHxE1h5a6qiC"
+    },
+    {
+      "id": "163tK9Wjr9P9DmM0AVK7lm",
+      "name": "Lorde",
+      "genres": [
+        "art pop",
+        "dance pop",
+        "metropopolis",
+        "pop",
+        "post-teen pop"
+      ],
+      "img": "https://i.scdn.co/image/d25fc756cd04c8b3ea196b7c07c6d057685cc405",
+      "url": "https://open.spotify.com/artist/163tK9Wjr9P9DmM0AVK7lm"
+    },
+    {
+      "id": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "name": "David Guetta",
+      "genres": [
+        "dance pop",
+        "edm",
+        "pop",
+        "tropical house"
+      ],
+      "img": "https://i.scdn.co/image/86a387d8f8154a8c4956865c84283aade9dd3969",
+      "url": "https://open.spotify.com/artist/1Cs0zKBU1kc0i8ypK3B9ai"
+    },
+    {
+      "id": "1OFP2fSFWTfJ80rzUo5AGb",
+      "name": "Maneva",
+      "genres": [
+        "brazilian electronica"
+      ],
+      "img": "https://i.scdn.co/image/48470f1b1079f301d4bab4e3cc86bca0b8688990",
+      "url": "https://open.spotify.com/artist/1OFP2fSFWTfJ80rzUo5AGb"
+    },
+    {
+      "id": "53XhwfbYqKCa1cC15pYq2q",
+      "name": "Imagine Dragons",
+      "genres": [
+        "modern rock",
+        "vegas indie"
+      ],
+      "img": "https://i.scdn.co/image/1233a174b66518fd7c7ff9ce96202054ca062f09",
+      "url": "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q"
+    },
+    {
+      "id": "3WrFJ7ztbogyGnTHbHJFl2",
+      "name": "The Beatles",
+      "genres": [
+        "album rock",
+        "british invasion",
+        "classic rock",
+        "merseybeat",
+        "psychedelic rock",
+        "rock"
+      ],
+      "img": "https://i.scdn.co/image/197cff807611777427c93258f0a1ccdf6b013b09",
+      "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+    },
+    {
+      "id": "0GNq4xh8uFCyihPurnunf7",
+      "name": "Engenheiros Do Hawaii",
+      "genres": [
+        "mpb",
+        "rock gaucho"
+      ],
+      "img": "https://i.scdn.co/image/30a6169720ba5a1b7e90acffedd677a3ab2fae35",
+      "url": "https://open.spotify.com/artist/0GNq4xh8uFCyihPurnunf7"
+    },
+    {
+      "id": "1GLtl8uqKmnyCWxHmw9tL4",
+      "name": "The Kooks",
+      "genres": [
+        "garage rock",
+        "indie rock",
+        "modern rock"
+      ],
+      "img": "https://i.scdn.co/image/4ec808c80ecddfc03d0d7111ffc42da9498d8b77",
+      "url": "https://open.spotify.com/artist/1GLtl8uqKmnyCWxHmw9tL4"
+    },
+    {
+      "id": "4PhdYoQGH8s1xee81dqQOO",
+      "name": "Natiruts",
+      "genres": [],
+      "img": "https://i.scdn.co/image/59ece40b3ad060190f90625e22fa2e00ec0b61ab",
+      "url": "https://open.spotify.com/artist/4PhdYoQGH8s1xee81dqQOO"
+    },
+    {
+      "id": "6tw6EpC9RgmSRZiZg0n22t",
+      "name": "Legião Urbana",
+      "genres": [
+        "brazilian punk",
+        "mpb"
+      ],
+      "img": "https://i.scdn.co/image/03023830927d1cc472dd35938cb7ee1c1718b290",
+      "url": "https://open.spotify.com/artist/6tw6EpC9RgmSRZiZg0n22t"
+    },
+    {
+      "id": "2vyvksxB1aCmd0vl2geGYR",
+      "name": "A Banda Mais Bonita da Cidade",
+      "genres": [
+        "baile pop",
+        "brazilian indie",
+        "mpb"
+      ],
+      "img": "https://i.scdn.co/image/45d1563a7334f367cc994eac862f2bcf4ccb805f",
+      "url": "https://open.spotify.com/artist/2vyvksxB1aCmd0vl2geGYR"
+    },
+    {
+      "id": "1vCWHaC5f2uS3yhpwWbIA6",
+      "name": "Avicii",
+      "genres": [
+        "big room",
+        "edm",
+        "electro house",
+        "pop",
+        "tropical house"
+      ],
+      "img": "https://i.scdn.co/image/81b19a403109c4fe528ee3972137127b85be9519",
+      "url": "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+    },
+    {
+      "id": "5Tf4EH8tDvznnjULcFxkIl",
+      "name": "Alex Clare",
+      "genres": [],
+      "img": "https://i.scdn.co/image/67deb24c0f234e88188488fa2698faed02cd2f98",
+      "url": "https://open.spotify.com/artist/5Tf4EH8tDvznnjULcFxkIl"
+    },
+    {
+      "id": "12Chz98pHFMPJEknJQMWvI",
+      "name": "Muse",
+      "genres": [
+        "alternative rock",
+        "modern rock",
+        "permanent wave",
+        "piano rock",
+        "post-grunge",
+        "rock"
+      ],
+      "img": "https://i.scdn.co/image/19ac88c7aec1f68aa6e207aff29efa15d37336a7",
+      "url": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+    },
+    {
+      "id": "6eUKZXaKkcviH0Ku9w2n3V",
+      "name": "Ed Sheeran",
+      "genres": [
+        "pop"
+      ],
+      "img": "https://i.scdn.co/image/f0370da3f52161b07a461b4be9a64d0adbfb498d",
+      "url": "https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"
+    },
+    {
+      "id": "7CajNmpbOovFoOoasH2HaY",
+      "name": "Calvin Harris",
+      "genres": [
+        "dance pop",
+        "edm",
+        "electro house",
+        "house",
+        "pop",
+        "progressive house"
+      ],
+      "img": "https://i.scdn.co/image/daa483279a678a856dfd25def633e0f4e8ebf14f",
+      "url": "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
+    },
+    {
+      "id": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "name": "Russ",
+      "genres": [
+        "pop",
+        "rap",
+        "trap music"
+      ],
+      "img": "https://i.scdn.co/image/2ebe30fc7fd5684743d4ab03b8e6e18af8dc3e81",
+      "url": "https://open.spotify.com/artist/1z7b1Pr1rSlvWRzsW3HOrS"
+    },
+    {
+      "id": "63yrD80RY3RNEM2YDpUpO8",
+      "name": "Melanie Martinez",
+      "genres": [
+        "pop"
+      ],
+      "img": "https://i.scdn.co/image/9f123a88e7447c1e40aaab54cfa73df07adbad23",
+      "url": "https://open.spotify.com/artist/63yrD80RY3RNEM2YDpUpO8"
+    },
+    {
+      "id": "7n1XMwvxPf10t4OX6h6Ufy",
+      "name": "Nando Reis",
+      "genres": [
+        "mpb"
+      ],
+      "img": "https://i.scdn.co/image/2e9d582acd7f0b01f97ab39cafad848a52896a5c",
+      "url": "https://open.spotify.com/artist/7n1XMwvxPf10t4OX6h6Ufy"
+    },
+    {
+      "id": "4gzpq5DPGxSnKTe4SA8HAU",
+      "name": "Coldplay",
+      "genres": [
+        "permanent wave",
+        "pop",
+        "pop christmas",
+        "rock"
+      ],
+      "img": "https://i.scdn.co/image/143b0f286f76ece3a711f673d9ba00b8f499b2c0",
+      "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+    },
+    {
+      "id": "43ZHCT0cAZBISjO8DG9PnE",
+      "name": "Elvis Presley",
+      "genres": [
+        "christmas",
+        "rock-and-roll",
+        "rockabilly"
+      ],
+      "img": "https://i.scdn.co/image/160c941240375cecbdebfe61033e59783c5172ab",
+      "url": "https://open.spotify.com/artist/43ZHCT0cAZBISjO8DG9PnE"
+    },
+    {
+      "id": "1yxSLGMDHlW21z4YXirZDS",
+      "name": "The Black Eyed Peas",
+      "genres": [
+        "dance pop",
+        "pop",
+        "pop rap"
+      ],
+      "img": "https://i.scdn.co/image/8bf4bbd5e583aec370fef2a118a58d90fac331c7",
+      "url": "https://open.spotify.com/artist/1yxSLGMDHlW21z4YXirZDS"
+    },
+    {
+      "id": "2qxJFvFYMEDqd7ui6kSAcq",
+      "name": "Zedd",
+      "genres": [
+        "complextro",
+        "dance pop",
+        "edm",
+        "german techno",
+        "pop",
+        "tropical house"
+      ],
+      "img": "https://i.scdn.co/image/53ae37044fce1e705821cc1ce588e6704fdb9ed0",
+      "url": "https://open.spotify.com/artist/2qxJFvFYMEDqd7ui6kSAcq"
+    },
+    {
+      "id": "4C5NwUOtsmPrPSD5A7hYbU",
+      "name": "Flávio José",
+      "genres": [
+        "axe",
+        "brega",
+        "forro"
+      ],
+      "img": "https://i.scdn.co/image/1a3ed93e13c29ec2e63eaeaa89b742eb00f6a9b3",
+      "url": "https://open.spotify.com/artist/4C5NwUOtsmPrPSD5A7hYbU"
+    },
+    {
+      "id": "5eAWCfyUhZtHHtBdNk56l1",
+      "name": "System Of A Down",
+      "genres": [
+        "alternative metal",
+        "hard rock",
+        "nu metal",
+        "post-grunge",
+        "rock"
+      ],
+      "img": "https://i.scdn.co/image/76245f096873524d6b507c093854a41fb90b9ae0",
+      "url": "https://open.spotify.com/artist/5eAWCfyUhZtHHtBdNk56l1"
+    },
+    {
+      "id": "2Z7UcsdweVlRbAk5wH5fsf",
+      "name": "The Last Shadow Puppets",
+      "genres": [
+        "garage rock",
+        "indie rock",
+        "modern rock",
+        "new rave",
+        "sheffield indie"
+      ],
+      "img": "https://i.scdn.co/image/1e721c9502da1663fe9dd0b9f8a90519546f0a9f",
+      "url": "https://open.spotify.com/artist/2Z7UcsdweVlRbAk5wH5fsf"
+    },
+    {
+      "id": "1wFTlPjO7zRtvylmu5pm1d",
+      "name": "Clarice Falcão",
+      "genres": [
+        "baile pop",
+        "mpb"
+      ],
+      "img": "https://i.scdn.co/image/f7d386be21241e09da04d9a95f1cd8f57063adc7",
+      "url": "https://open.spotify.com/artist/1wFTlPjO7zRtvylmu5pm1d"
+    },
+    {
+      "id": "0IVBT8qQNwvHLzOJL6kGpE",
+      "name": "Oriente",
+      "genres": [
+        "brazilian electronica",
+        "brazilian hip hop"
+      ],
+      "img": "https://i.scdn.co/image/e52b04296fd7a70a5d32bb13bfffd0881da29ae7",
+      "url": "https://open.spotify.com/artist/0IVBT8qQNwvHLzOJL6kGpE"
+    },
+    {
+      "id": "37ZflmHTdxkSLQuT8w9NBs",
+      "name": "Criolo",
+      "genres": [
+        "brazilian hip hop",
+        "mpb",
+        "samba"
+      ],
+      "img": "https://i.scdn.co/image/117477ad463a8eb229012d627588a47e6b088c5e",
+      "url": "https://open.spotify.com/artist/37ZflmHTdxkSLQuT8w9NBs"
+    },
+    {
+      "id": "35j8oMehl8Q9mLnVmkVqMC",
+      "name": "Suricato",
+      "genres": [],
+      "img": "https://i.scdn.co/image/ea014bf3ee6f0a55056035d891d81592f79bca51",
+      "url": "https://open.spotify.com/artist/35j8oMehl8Q9mLnVmkVqMC"
+    },
+    {
+      "id": "1bhqpMFFgoa0NTz82BprgL",
+      "name": "Chiclete Com Banana",
+      "genres": [
+        "axe",
+        "forro",
+        "pagode",
+        "sertanejo"
+      ],
+      "img": "https://i.scdn.co/image/90c47cfd35e73db7dd43db4e7c7eff7c8466f58c",
+      "url": "https://open.spotify.com/artist/1bhqpMFFgoa0NTz82BprgL"
+    },
+    {
+      "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "name": "The Weeknd",
+      "genres": [
+        "canadian pop",
+        "pop",
+        "rap"
+      ],
+      "img": "https://i.scdn.co/image/a1bbafd8c21c14fd685a3d8efb0906db7c059a97",
+      "url": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+    },
+    {
+      "id": "5Hc9oDGvStNGmnj44m8sHg",
+      "name": "Tyler Ward",
+      "genres": [
+        "channel pop",
+        "classify",
+        "neo mellow",
+        "post-teen pop",
+        "viral pop"
+      ],
+      "img": "https://i.scdn.co/image/d8a334e3d700562ba36bff296741a7adae5f72a2",
+      "url": "https://open.spotify.com/artist/5Hc9oDGvStNGmnj44m8sHg"
+    },
+    {
+      "id": "02kJSzxNuaWGqwubyUba0Z",
+      "name": "G-Eazy",
+      "genres": [
+        "rap",
+        "underground pop rap"
+      ],
+      "img": "https://i.scdn.co/image/b0bc5b77b7317a8644abe86d95f8fbd4ef4ffe0b",
+      "url": "https://open.spotify.com/artist/02kJSzxNuaWGqwubyUba0Z"
+    },
+    {
+      "id": "47mIJdHORyRerp4os813jD",
+      "name": "League of Legends",
+      "genres": [],
+      "img": "https://i.scdn.co/image/625155d652c7e1bf23e4e27e86d45742df911434",
+      "url": "https://open.spotify.com/artist/47mIJdHORyRerp4os813jD"
+    },
+    {
+      "id": "7HGNYPmbDrMkylWqeFCOIQ",
+      "name": "Caetano Veloso",
+      "genres": [
+        "bossa nova",
+        "mpb",
+        "samba"
+      ],
+      "img": "https://i.scdn.co/image/ec133dba3041b73b828d7f91475a7876373fff06",
+      "url": "https://open.spotify.com/artist/7HGNYPmbDrMkylWqeFCOIQ"
+    },
+    {
+      "id": "0epOFNiUfyON9EYx7Tpr6V",
+      "name": "The Strokes",
+      "genres": [
+        "alternative rock",
+        "garage rock",
+        "indie pop",
+        "indie rock",
+        "modern rock",
+        "permanent wave",
+        "rock"
+      ],
+      "img": "https://i.scdn.co/image/83b70d344ea18f84f6fb654179e6d14ce886b716",
+      "url": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+    }
+  ],
+  "edges": [
+    {
+      "source": "3TVXtAsR1Inumwj472S9r4",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "3TVXtAsR1Inumwj472S9r4",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "3TVXtAsR1Inumwj472S9r4",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "3TVXtAsR1Inumwj472S9r4",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "3TVXtAsR1Inumwj472S9r4",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "3TVXtAsR1Inumwj472S9r4",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "7Ln80lUS6He07XvHI8qqHH",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "00FQb4jTyendYWaN8pK0wa",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7Brxri4l1ATShikyHXsEr6",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "3h7RaVXBvdSNa7LXQtVYqH",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "pagode"
+    },
+    {
+      "source": "3h7RaVXBvdSNa7LXQtVYqH",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "pagode"
+    },
+    {
+      "source": "3h7RaVXBvdSNa7LXQtVYqH",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "pagode"
+    },
+    {
+      "source": "3h7RaVXBvdSNa7LXQtVYqH",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "pagode"
+    },
+    {
+      "source": "7dGJo4pcD2V6oG8kP0tJRR",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "7dGJo4pcD2V6oG8kP0tJRR",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "7dGJo4pcD2V6oG8kP0tJRR",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "7dGJo4pcD2V6oG8kP0tJRR",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "7dGJo4pcD2V6oG8kP0tJRR",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "6XyY86QOPPrYVGvF9ch6wz",
+      "target": "5eAWCfyUhZtHHtBdNk56l1",
+      "type": "alternative metal"
+    },
+    {
+      "source": "6XyY86QOPPrYVGvF9ch6wz",
+      "target": "5eAWCfyUhZtHHtBdNk56l1",
+      "type": "alternative metal"
+    },
+    {
+      "source": "6XyY86QOPPrYVGvF9ch6wz",
+      "target": "5eAWCfyUhZtHHtBdNk56l1",
+      "type": "alternative metal"
+    },
+    {
+      "source": "6XyY86QOPPrYVGvF9ch6wz",
+      "target": "5eAWCfyUhZtHHtBdNk56l1",
+      "type": "alternative metal"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7fAKtXSdNInWAIf0jVUz65",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0XNa1vTidXlvJ2gHSsRi4A",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0C0XlULifJtAgn6ZNCW2eu",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0L8ExT028jH3ddEcZwqJJ5",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "2WUEIWbgWLEHxE1h5a6qiC",
+      "target": "2WUEIWbgWLEHxE1h5a6qiC",
+      "type": "tribute"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "163tK9Wjr9P9DmM0AVK7lm",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "post-teen pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1Cs0zKBU1kc0i8ypK3B9ai",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1OFP2fSFWTfJ80rzUo5AGb",
+      "target": "0IVBT8qQNwvHLzOJL6kGpE",
+      "type": "brazilian electronica"
+    },
+    {
+      "source": "1OFP2fSFWTfJ80rzUo5AGb",
+      "target": "0IVBT8qQNwvHLzOJL6kGpE",
+      "type": "brazilian electronica"
+    },
+    {
+      "source": "1OFP2fSFWTfJ80rzUo5AGb",
+      "target": "0IVBT8qQNwvHLzOJL6kGpE",
+      "type": "brazilian electronica"
+    },
+    {
+      "source": "53XhwfbYqKCa1cC15pYq2q",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "modern rock"
+    },
+    {
+      "source": "53XhwfbYqKCa1cC15pYq2q",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "modern rock"
+    },
+    {
+      "source": "53XhwfbYqKCa1cC15pYq2q",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "modern rock"
+    },
+    {
+      "source": "53XhwfbYqKCa1cC15pYq2q",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "modern rock"
+    },
+    {
+      "source": "53XhwfbYqKCa1cC15pYq2q",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "modern rock"
+    },
+    {
+      "source": "53XhwfbYqKCa1cC15pYq2q",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "modern rock"
+    },
+    {
+      "source": "53XhwfbYqKCa1cC15pYq2q",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "modern rock"
+    },
+    {
+      "source": "53XhwfbYqKCa1cC15pYq2q",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "modern rock"
+    },
+    {
+      "source": "3WrFJ7ztbogyGnTHbHJFl2",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "3WrFJ7ztbogyGnTHbHJFl2",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "3WrFJ7ztbogyGnTHbHJFl2",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "3WrFJ7ztbogyGnTHbHJFl2",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "3WrFJ7ztbogyGnTHbHJFl2",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "3WrFJ7ztbogyGnTHbHJFl2",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "3WrFJ7ztbogyGnTHbHJFl2",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "3WrFJ7ztbogyGnTHbHJFl2",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0GNq4xh8uFCyihPurnunf7",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1GLtl8uqKmnyCWxHmw9tL4",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "1GLtl8uqKmnyCWxHmw9tL4",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "1GLtl8uqKmnyCWxHmw9tL4",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "1GLtl8uqKmnyCWxHmw9tL4",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "1GLtl8uqKmnyCWxHmw9tL4",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "1GLtl8uqKmnyCWxHmw9tL4",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "1GLtl8uqKmnyCWxHmw9tL4",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "1GLtl8uqKmnyCWxHmw9tL4",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "6tw6EpC9RgmSRZiZg0n22t",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "2vyvksxB1aCmd0vl2geGYR",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1vCWHaC5f2uS3yhpwWbIA6",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "12Chz98pHFMPJEknJQMWvI",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "6eUKZXaKkcviH0Ku9w2n3V",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7CajNmpbOovFoOoasH2HaY",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1z7b1Pr1rSlvWRzsW3HOrS",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "63yrD80RY3RNEM2YDpUpO8",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "7n1XMwvxPf10t4OX6h6Ufy",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "4gzpq5DPGxSnKTe4SA8HAU",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "permanent wave"
+    },
+    {
+      "source": "43ZHCT0cAZBISjO8DG9PnE",
+      "target": "43ZHCT0cAZBISjO8DG9PnE",
+      "type": "christmas"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "1yxSLGMDHlW21z4YXirZDS",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "2qxJFvFYMEDqd7ui6kSAcq",
+      "target": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "type": "pop"
+    },
+    {
+      "source": "4C5NwUOtsmPrPSD5A7hYbU",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "axe"
+    },
+    {
+      "source": "4C5NwUOtsmPrPSD5A7hYbU",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "axe"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "5eAWCfyUhZtHHtBdNk56l1",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "rock"
+    },
+    {
+      "source": "2Z7UcsdweVlRbAk5wH5fsf",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "2Z7UcsdweVlRbAk5wH5fsf",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "2Z7UcsdweVlRbAk5wH5fsf",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "2Z7UcsdweVlRbAk5wH5fsf",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "2Z7UcsdweVlRbAk5wH5fsf",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "2Z7UcsdweVlRbAk5wH5fsf",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "2Z7UcsdweVlRbAk5wH5fsf",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "2Z7UcsdweVlRbAk5wH5fsf",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "garage rock"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1wFTlPjO7zRtvylmu5pm1d",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "0IVBT8qQNwvHLzOJL6kGpE",
+      "target": "37ZflmHTdxkSLQuT8w9NBs",
+      "type": "brazilian hip hop"
+    },
+    {
+      "source": "0IVBT8qQNwvHLzOJL6kGpE",
+      "target": "37ZflmHTdxkSLQuT8w9NBs",
+      "type": "brazilian hip hop"
+    },
+    {
+      "source": "0IVBT8qQNwvHLzOJL6kGpE",
+      "target": "37ZflmHTdxkSLQuT8w9NBs",
+      "type": "brazilian hip hop"
+    },
+    {
+      "source": "0IVBT8qQNwvHLzOJL6kGpE",
+      "target": "37ZflmHTdxkSLQuT8w9NBs",
+      "type": "brazilian hip hop"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "37ZflmHTdxkSLQuT8w9NBs",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "mpb"
+    },
+    {
+      "source": "1bhqpMFFgoa0NTz82BprgL",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "axe"
+    },
+    {
+      "source": "1bhqpMFFgoa0NTz82BprgL",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "axe"
+    },
+    {
+      "source": "1bhqpMFFgoa0NTz82BprgL",
+      "target": "1bhqpMFFgoa0NTz82BprgL",
+      "type": "axe"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "5Hc9oDGvStNGmnj44m8sHg",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "channel pop"
+    },
+    {
+      "source": "5Hc9oDGvStNGmnj44m8sHg",
+      "target": "5Hc9oDGvStNGmnj44m8sHg",
+      "type": "channel pop"
+    },
+    {
+      "source": "02kJSzxNuaWGqwubyUba0Z",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "02kJSzxNuaWGqwubyUba0Z",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "02kJSzxNuaWGqwubyUba0Z",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "02kJSzxNuaWGqwubyUba0Z",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "02kJSzxNuaWGqwubyUba0Z",
+      "target": "02kJSzxNuaWGqwubyUba0Z",
+      "type": "rap"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "7HGNYPmbDrMkylWqeFCOIQ",
+      "target": "7HGNYPmbDrMkylWqeFCOIQ",
+      "type": "bossa nova"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    },
+    {
+      "source": "0epOFNiUfyON9EYx7Tpr6V",
+      "target": "0epOFNiUfyON9EYx7Tpr6V",
+      "type": "alternative rock"
+    }
+  ]
+}
