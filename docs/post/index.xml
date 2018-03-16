@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Visualizações</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Mar 2018 21:15:57 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 16 Mar 2018 18:34:14 -0300</lastBuildDate>
     
 	<atom:link href="https://joaolgm.github.io/hugo-vis/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TopSpot</title>
+      <link>https://joaolgm.github.io/hugo-vis/post/topspot/</link>
+      <pubDate>Fri, 16 Mar 2018 18:34:14 -0300</pubDate>
+      
+      <guid>https://joaolgm.github.io/hugo-vis/post/topspot/</guid>
+      <description>TOP SPOT   Mais um grafo e observação de grupos.
+ Mais uma vez sobre música. Dessa vez trouxe um grafo, gerado por dados fornecidos pelo Spotify, sobre o meu gosto musical. Cada cor de aresta indica um estilo musical e cada círculo, um artista/banda. As conexões entre círculos é dada por terem gêneros musicais em comum. Ao passar o cursor sobre o círculo mostra o nome do artista e ao clicar você poderá visitar o perfil do artista no Spotify e ter acesso à suas músicas.</description>
+    </item>
     
     <item>
       <title>Rap NE</title>

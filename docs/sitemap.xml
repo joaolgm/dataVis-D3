@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://joaolgm.github.io/hugo-vis/post/topspot/</loc>
+    <lastmod>2018-03-16T18:34:14-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://joaolgm.github.io/hugo-vis/post/rap-ne/</loc>
     <lastmod>2018-03-10T21:15:57-03:00</lastmod>
   </url>
@@ -29,7 +34,7 @@
   
   <url>
     <loc>https://joaolgm.github.io/hugo-vis/post/</loc>
-    <lastmod>2018-03-10T21:15:57-03:00</lastmod>
+    <lastmod>2018-03-16T18:34:14-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -40,7 +45,7 @@
   
   <url>
     <loc>https://joaolgm.github.io/hugo-vis/</loc>
-    <lastmod>2018-03-10T21:15:57-03:00</lastmod>
+    <lastmod>2018-03-16T18:34:14-03:00</lastmod>
     <priority>0</priority>
   </url>
   
