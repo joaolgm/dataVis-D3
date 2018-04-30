@@ -185,31 +185,31 @@ draft: false
             /*
              * Botões para visualizar diferentes atributos dos dados
              */
-            const dataKeys = Object.keys(dadosLidos[0])
-              .filter(d => d !== "hora" && d !== "tipo")
-
-            d3.select("#controls").selectAll("button.teams")
-              .data(dataKeys)
-              .enter()
-                .append("button")
-                .attr("class", "btn-default")
-                .on("click", botaoClicado)
-                .html(d => d);
-
-                function botaoClicado(dimensao) {
-                var maxValue = d3.max(dadosLidos, d => parseFloat(d[dimensao]))
-                var radiusScale = d3.scaleLinear()
-                                .domain([ 0, maxValue ])
-                                .rangeRound([ 2, 25 ])
-
-                grafico.selectAll('g')
-                      .data(dataKeys)
-                        .enter()
-                      .append('circle')
-                      .attr('cy', function(d) {return y(d.dimensao)})
-                      //.transition().duration(700) // descomente aqui para testar
-                      .style("fill", "#00BFB8");
-              }
+            // const dataKeys = Object.keys(dadosLidos[0])
+            //   .filter(d => d !== "hora" && d !== "tipo")
+            //
+            // d3.select("#controls").selectAll("button.teams")
+            //   .data(dataKeys)
+            //   .enter()
+            //     .append("button")
+            //     .attr("class", "btn-default")
+            //     .on("click", botaoClicado)
+            //     .html(d => d);
+            //
+            //     function botaoClicado(dimensao) {
+            //     var maxValue = d3.max(dadosLidos, d => parseFloat(d[dimensao]))
+            //     var radiusScale = d3.scaleLinear()
+            //                     .domain([ 0, maxValue ])
+            //                     .rangeRound([ 2, 25 ])
+            //
+            //     grafico.selectAll('g')
+            //           .data(dataKeys)
+            //             .enter()
+            //           .append('circle')
+            //           .attr('cy', function(d) {return y(d.dimensao)})
+            //           //.transition().duration(700) // descomente aqui para testar
+            //           .style("fill", "#00BFB8");
+            //   }
 
 
             grafico.append("g")
